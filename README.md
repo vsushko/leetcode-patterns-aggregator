@@ -54,7 +54,7 @@ Solutions written in Java will be specified.
 
 ## Suggestions
 Think a question should/shouldn't be included? Wish there was another feature?
-Feel free to open an [issue] with your suggestion!
+To report a bug or request a feature, create a [GitHub Issue](https://github.com/vsushko/leetcode-patterns-aggregator/issues). Please ensure someone else hasn’t created an issue for the same topic.
 
 ## Acknowledgements
 This list is heavily inspired lots of resources mentions on **Notes** secion and daily LinkedIn posts with yet another lists of questions [Crack The Coding Interview](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947).
