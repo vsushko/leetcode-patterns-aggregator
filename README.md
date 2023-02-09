@@ -3,7 +3,6 @@
 ## Table of Contents
 - [About](#about)
 - [Fundamentals](#fundamentals)
-- [Notes](#notes)
 - [Question List](#question-list)
 - [Solutions](#solutions)
 - [Suggestions](#suggestions)
