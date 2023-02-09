@@ -48,7 +48,7 @@ In addition, you should have a good grasp on common algorithms such as:
 
 ## Question List
 The entire question list can be found here:
-[https://seanprashad.com/leetcode-patterns/](https://vsushko.github.io/leetcode-patterns-aggregator/).
+[https://github.com/vsushko/leetcode-patterns-aggregator](https://vsushko.github.io/leetcode-patterns-aggregator/).
 
 ## Solutions
 Solutions written in Java will be specified.
