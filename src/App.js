@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 import './App.css';
 
@@ -32,7 +31,7 @@ class App extends Component {
         </div>
         <div className="container-md pt-3">
           <div>
-            <table class="table table-sm table-bordered table-hover table-striped">
+            <table className="table table-sm table-bordered table-hover table-striped">
               <thead>
                 <tr>
                   <th scope="col">#</th>
