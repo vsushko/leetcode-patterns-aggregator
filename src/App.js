@@ -45,7 +45,7 @@ class App extends Component {
                 problems.map((problem, idx) => (
                   <tr>
                     <th scope="row">{idx + 1}</th>
-                    <td><a className="navbar-brand" target="_blank" href={problem.link}>{problem.name}</a></td>
+                    <td><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
                     <td>{problem.patterns.join(', ')}</td>
                     <td>{problem.difficulty}</td>
                   </tr>
