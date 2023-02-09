@@ -27,9 +27,9 @@ class App extends Component {
             </div>
           </nav>
         </div>
-        <div className="container-md pt-3">
-          <div>
-            <table className="table table-sm table-bordered table-hover table-striped">
+        <div className="container-sm pt-3">
+          <div className="d-flex justify-content-center">
+            <table className="table table-sm table-bordered table-hover table-striped" style={{maxWidth: "1%", whiteSpace: "nowrap"}}>
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -42,7 +42,7 @@ class App extends Component {
                 BLIND_75_LIST.map((problem, idx) => (
                   <tr>
                     <th scope="row">{idx + 1}</th>
-                    <td><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+                    <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
                     <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
                     <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
                   </tr>
