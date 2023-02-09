@@ -50,7 +50,7 @@ The entire question list can be found here:
 [https://github.com/vsushko/leetcode-patterns-aggregator](https://vsushko.github.io/leetcode-patterns-aggregator/).
 
 ## Solutions
-Solutions written in Java will be specified.
+Solutions written in Java will be added soon.
 
 ## Suggestions
 Think a question should/shouldn't be included? Wish there was another feature?
