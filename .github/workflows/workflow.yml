@@ -2,24 +2,22 @@ name: Github Pages Deploy
 
 on:
   push:
-    branches:
-      - "main"
+    branches: [ main ]
 
 jobs:
-  build: 
+  build-and-deploy: 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [15.x]
-    
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
       - name: Install and build
         run: npm install && npm run build
+
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: main
-          folder: build
+        run: |
+          git config --global user.name 'Vasiliy Sushko'
+          git config --global user.email 'vasiliy.sushko@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          npm run deploy
