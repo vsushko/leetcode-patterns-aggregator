@@ -17,6 +17,12 @@ const problems =
       patterns: ["Arrays", "Bit Manipulation"],
       difficulty: "Easy"
     },
+    {
+      name: "Find All Numbers Disappeared in an Array",
+      link: "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+      patterns: ["Arrays"],
+      difficulty: "Easy"
+    },
   ];
 
 class App extends Component {
