@@ -1,4 +1,4 @@
-# Leetcode Patterns Aggregator [![github-pages](https://github.com/vsushko/leetcode-patterns-aggregator/actions/workflows/workflow.yml/badge.svg)](https://github.com/vsushko/leetcode-patterns-aggregator/actions/workflows/github-pages.yml)
+# [Leetcode Patterns Aggregator](https://vsushko.github.io/leetcode-patterns-aggregator) [![github-pages](https://github.com/vsushko/leetcode-patterns-aggregator/actions/workflows/workflow.yml/badge.svg)](https://github.com/vsushko/leetcode-patterns-aggregator/actions/workflows/github-pages.yml)
 
 ## Table of Contents
 - [About](#about)
