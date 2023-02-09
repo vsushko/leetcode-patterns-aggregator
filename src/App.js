@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import { BLIND_75_LIST } from "./store/blind-seventy-five";
 
 import './App.css';
 
-const problems =
+const seanprashadList =
   [
     {
       name: "Contains Duplicate",
@@ -24,6 +25,18 @@ const problems =
       difficulty: "Easy"
     },
   ];
+
+const getDifficultyColor = (difficulty) => {
+  if (difficulty === 'Easy') {
+    return { color: "#00AF9B" }
+  }
+  if (difficulty === 'Medium') {
+    return { color: "#FFB800" };
+  }
+  if (difficulty === 'Hard') {
+    return { color: "#FF2D55" };
+  }
+}
 
 class App extends Component {
   render() {
@@ -48,12 +61,12 @@ class App extends Component {
                 </tr>
               </thead>
               <tbody>{
-                problems.map((problem, idx) => (
+                BLIND_75_LIST.map((problem, idx) => (
                   <tr>
                     <th scope="row">{idx + 1}</th>
                     <td><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
-                    <td>{problem.patterns.join(', ')}</td>
-                    <td>{problem.difficulty}</td>
+                    <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+                    <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
                   </tr>
                 ))
               }
