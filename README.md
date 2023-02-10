@@ -55,5 +55,5 @@ Solutions written in Java will be added soon.
 To report a bug or request a feature, create a [GitHub Issue](https://github.com/vsushko/leetcode-patterns-aggregator/issues). Please ensure someone else hasn’t created an issue for the same topic.
 
 ## Acknowledgements
-This project is heavily inspired by lots of resources mentions in the **Notes** section and daily LinkedIn posts with yet another list of questions [Crack The Coding Interview](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947).
+This project is heavily inspired by lots of resources mentioned in the **Notes** section and daily LinkedIn posts with yet another list of questions [Crack The Coding Interview](https://docs.google.com/spreadsheets/d/1pnI8HmSMPcfwrCCu7wYETCXaKDig4VucZDpcjVRuYrE/edit#gid=237636947).
 
