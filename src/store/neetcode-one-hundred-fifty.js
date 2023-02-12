@@ -120,8 +120,22 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Permutation In String",
+      link: "https://leetcode.com/problems/permutation-in-string/",
+      patterns: [],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
       name: "Minimum Window Substring",
       link: "https://leetcode.com/problems/minimum-window-substring/",
+      patterns: [],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Sliding Window Maximum",
+      link: "https://leetcode.com/problems/sliding-window-maximum/",
       patterns: [],
       topic: "Sliding Window",
       difficulty: "Hard"
@@ -132,6 +146,69 @@ export const NEETCODE_150_LIST =
       patterns: [],
       topic: "Stack",
       difficulty: "Easy"
+    },
+    {
+      name: "Min Stack",
+      link: "https://leetcode.com/problems/min-stack/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Medium"
+    },
+    {
+      name: "Evaluate Reverse Polish Notation",
+      link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Medium"
+    },
+    {
+      name: "Generate Parentheses",
+      link: "https://leetcode.com/problems/generate-parentheses/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Medium"
+    },
+    {
+      name: "Daily Temperatures",
+      link: "https://leetcode.com/problems/daily-temperatures/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Medium"
+    },
+    {
+      name: "Car Fleet",
+      link: "https://leetcode.com/problems/car-fleet/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Medium"
+    },
+    {
+      name: "Largest Rectangle In Histogram",
+      link: "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+      patterns: [],
+      topic: "Stack",
+      difficulty: "Hard"
+    },
+    {
+      name: "Binary Search",
+      link: "https://leetcode.com/problems/binary-search/",
+      patterns: [],
+      topic: "Binary Search",
+      difficulty: "Easy"
+    },
+    {
+      name: "Search a 2D Matrix",
+      link: "https://leetcode.com/problems/search-a-2d-matrix/",
+      patterns: [],
+      topic: "Binary Search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Koko Eating Bananas",
+      link: "https://leetcode.com/problems/koko-eating-bananas/",
+      patterns: [],
+      topic: "Binary Search",
+      difficulty: "Medium"
     },
     {
       name: "Find Minimum In Rotated Sorted Array",
@@ -146,6 +223,20 @@ export const NEETCODE_150_LIST =
       patterns: [],
       topic: "Binary Search",
       difficulty: "Medium"
+    },
+    {
+      name: "Time Based Key Value Store",
+      link: "https://leetcode.com/problems/time-based-key-value-store/",
+      patterns: [],
+      topic: "Binary Search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Median of Two Sorted Arrays",
+      link: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      patterns: [],
+      topic: "Binary Search",
+      difficulty: "Hard"
     },
     {
       name: "Reverse Linked List",

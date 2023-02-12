@@ -19,3 +19,12 @@ const seanprashadList =
       difficulty: "Easy"
     },
   ];
+/*
+  {
+    name: "",
+    link: "",
+    patterns: [],
+    topic: "",
+    difficulty: "Easy"
+  },
+  */
