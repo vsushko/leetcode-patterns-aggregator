@@ -267,6 +267,20 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Copy List With Random Pointer",
+      link: "https://leetcode.com/problems/copy-list-with-random-pointer/",
+      patterns: [],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Add Two Numbers",
+      link: "https://leetcode.com/problems/add-two-numbers/",
+      patterns: [],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
       name: "Linked List Cycle",
       link: "https://leetcode.com/problems/linked-list-cycle/",
       patterns: [],
@@ -274,8 +288,29 @@ export const NEETCODE_150_LIST =
       difficulty: "Easy"
     },
     {
+      name: "Find The Duplicate Number",
+      link: "https://leetcode.com/problems/find-the-duplicate-number/",
+      patterns: [],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "LRU Cache",
+      link: "https://leetcode.com/problems/lru-cache/",
+      patterns: [],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
       name: "Merge K Sorted Lists",
       link: "https://leetcode.com/problems/merge-k-sorted-lists/",
+      patterns: [],
+      topic: "Linked List",
+      difficulty: "Hard"
+    },
+    {
+      name: "Reverse Nodes In K Group",
+      link: "https://leetcode.com/problems/reverse-nodes-in-k-group/",
       patterns: [],
       topic: "Linked List",
       difficulty: "Hard"
@@ -290,6 +325,20 @@ export const NEETCODE_150_LIST =
     {
       name: "Maximum Depth of Binary Tree",
       link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      patterns: [],
+      topic: "Trees",
+      difficulty: "Easy"
+    },
+    {
+      name: "Diameter of Binary Tree",
+      link: "https://leetcode.com/problems/diameter-of-binary-tree/",
+      patterns: [],
+      topic: "Trees",
+      difficulty: "Easy"
+    },
+    {
+      name: "Balanced Binary Tree",
+      link: "https://leetcode.com/problems/balanced-binary-tree/",
       patterns: [],
       topic: "Trees",
       difficulty: "Easy"
@@ -318,6 +367,20 @@ export const NEETCODE_150_LIST =
     {
       name: "Binary Tree Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      patterns: [],
+      topic: "Trees",
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Tree Right Side View",
+      link: "https://leetcode.com/problems/binary-tree-right-side-view/",
+      patterns: [],
+      topic: "Trees",
+      difficulty: "Medium"
+    },
+    {
+      name: "Count Good Nodes In Binary Tree",
+      link: "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
       patterns: [],
       topic: "Trees",
       difficulty: "Medium"
@@ -368,15 +431,57 @@ export const NEETCODE_150_LIST =
       name: "Design Add And Search Words Data Structure",
       link: "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
       patterns: [],
-      topic: "Trees",
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
       name: "Word Search II",
       link: "https://leetcode.com/problems/word-search-ii/",
       patterns: [],
-      topic: "Trees",
+      topic: "Tries",
       difficulty: "Hard"
+    },
+    {
+      name: "Kth Largest Element In a Stream",
+      link: "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Easy"
+    },
+    {
+      name: "Last Stone Weight",
+      link: "https://leetcode.com/problems/last-stone-weight/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Easy"
+    },
+    {
+      name: "K Closest Points to Origin",
+      link: "https://leetcode.com/problems/k-closest-points-to-origin/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Medium"
+    },
+    {
+      name: "Kth Largest Element In An Array",
+      link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Medium"
+    },
+    {
+      name: "Task Scheduler",
+      link: "https://leetcode.com/problems/task-scheduler/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Medium"
+    },
+    {
+      name: "Design Twitter",
+      link: "https://leetcode.com/problems/design-twitter/",
+      patterns: [],
+      topic: "Heap / Priority Queue",
+      difficulty: "Medium"
     },
     {
       name: "Find Median From Data Stream",
@@ -386,8 +491,36 @@ export const NEETCODE_150_LIST =
       difficulty: "Hard"
     },
     {
+      name: "Subsets",
+      link: "https://leetcode.com/problems/subsets/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
       name: "Combination Sum",
       link: "https://leetcode.com/problems/combination-sum/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Permutations",
+      link: "https://leetcode.com/problems/permutations/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Subsets II",
+      link: "https://leetcode.com/problems/subsets-ii/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combination Sum II",
+      link: "https://leetcode.com/problems/combination-sum-ii/",
       patterns: [],
       topic: "Backtracking",
       difficulty: "Medium"
@@ -398,6 +531,27 @@ export const NEETCODE_150_LIST =
       patterns: [],
       topic: "Backtracking",
       difficulty: "Medium"
+    },
+    {
+      name: "Palindrome Partitioning",
+      link: "https://leetcode.com/problems/palindrome-partitioning/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Letter Combinations of a Phone Number",
+      link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "N Queens",
+      link: "https://leetcode.com/problems/n-queens/",
+      patterns: [],
+      topic: "Backtracking",
+      difficulty: "Hard"
     },
     {
       name: "Number of Islands",
@@ -414,6 +568,13 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Max Area of Island",
+      link: "https://leetcode.com/problems/max-area-of-island/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
       name: "Pacific Atlantic Water Flow",
       link: "https://leetcode.com/problems/pacific-atlantic-water-flow/",
       patterns: [],
@@ -421,8 +582,43 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Surrounded Regions",
+      link: "https://leetcode.com/problems/surrounded-regions/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Rotting Oranges",
+      link: "https://leetcode.com/problems/rotting-oranges/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Walls And Gates",
+      link: "https://leetcode.com/problems/walls-and-gates/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
       name: "Course Schedule",
       link: "https://leetcode.com/problems/course-schedule/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Course Schedule II",
+      link: "https://leetcode.com/problems/course-schedule-ii/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Redundant Connection",
+      link: "https://leetcode.com/problems/redundant-connection/",
       patterns: [],
       topic: "Graph",
       difficulty: "Medium"
@@ -442,6 +638,41 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Word Ladder",
+      link: "https://leetcode.com/problems/word-ladder/",
+      patterns: [],
+      topic: "Graph",
+      difficulty: "Hard"
+    },
+    {
+      name: "Reconstruct Itinerary",
+      link: "https://leetcode.com/problems/reconstruct-itinerary/",
+      patterns: [],
+      topic: "Advanced Graphs",
+      difficulty: "Hard"
+    },
+    {
+      name: "Min Cost to Connect All Points",
+      link: "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+      patterns: [],
+      topic: "Advanced Graphs",
+      difficulty: "Medium"
+    },
+    {
+      name: "Network Delay Time",
+      link: "https://leetcode.com/problems/network-delay-time/",
+      patterns: [],
+      topic: "Advanced Graphs",
+      difficulty: "Medium"
+    },
+    {
+      name: "Swim In Rising Water",
+      link: "https://leetcode.com/problems/swim-in-rising-water/",
+      patterns: [],
+      topic: "Advanced Graphs",
+      difficulty: "Hard"
+    },
+    {
       name: "Alien Dictionary",
       link: "https://leetcode.com/problems/alien-dictionary/",
       patterns: [],
@@ -449,8 +680,22 @@ export const NEETCODE_150_LIST =
       difficulty: "Hard"
     },
     {
+      name: "Cheapest Flights Within K Stops",
+      link: "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+      patterns: [],
+      topic: "Advanced Graphs",
+      difficulty: "Medium"
+    },
+    {
       name: "Climbing Stairs",
       link: "https://leetcode.com/problems/climbing-stairs/",
+      patterns: [],
+      topic: "1-D Dynamic Programming",
+      difficulty: "Easy"
+    },
+    {
+      name: "Min Cost Climbing Stairs",
+      link: "https://leetcode.com/problems/min-cost-climbing-stairs/",
       patterns: [],
       topic: "1-D Dynamic Programming",
       difficulty: "Easy"
@@ -519,6 +764,13 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Partition Equal Subset Sum",
+      link: "https://leetcode.com/problems/partition-equal-subset-sum/",
+      patterns: [],
+      topic: "1-D Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
       name: "Unique Paths",
       link: "https://leetcode.com/problems/unique-paths/",
       patterns: [],
@@ -533,6 +785,69 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Best Time to Buy And Sell Stock With Cooldown",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Coin Change II",
+      link: "https://leetcode.com/problems/coin-change-ii/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Target Sum",
+      link: "https://leetcode.com/problems/target-sum/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Interleaving String",
+      link: "https://leetcode.com/problems/interleaving-string/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Longest Increasing Path In a Matrix",
+      link: "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Hard"
+    },
+    {
+      name: "Distinct Subsequences",
+      link: "https://leetcode.com/problems/distinct-subsequences/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Hard"
+    },
+    {
+      name: "Edit Distance",
+      link: "https://leetcode.com/problems/edit-distance/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Hard"
+    },
+    {
+      name: "Burst Balloons",
+      link: "https://leetcode.com/problems/burst-balloons/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Hard"
+    },
+    {
+      name: "Regular Expression Matching",
+      link: "https://leetcode.com/problems/regular-expression-matching/",
+      patterns: [],
+      topic: "2-D Dynamic Programming",
+      difficulty: "Hard"
+    },
+    {
       name: "Maximum Subarray",
       link: "https://leetcode.com/problems/maximum-subarray/",
       patterns: [],
@@ -542,6 +857,48 @@ export const NEETCODE_150_LIST =
     {
       name: "Jump Game",
       link: "https://leetcode.com/problems/jump-game/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Jump Game II",
+      link: "https://leetcode.com/problems/jump-game-ii/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Gas Station",
+      link: "https://leetcode.com/problems/gas-station/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Hand of Straights",
+      link: "https://leetcode.com/problems/hand-of-straights/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Merge Triplets to Form Target Triplet",
+      link: "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Partition Labels",
+      link: "https://leetcode.com/problems/partition-labels/",
+      patterns: [],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Valid Parenthesis String",
+      link: "https://leetcode.com/problems/valid-parenthesis-string/",
       patterns: [],
       topic: "Greedy",
       difficulty: "Medium"
@@ -582,6 +939,13 @@ export const NEETCODE_150_LIST =
       difficulty: "Medium"
     },
     {
+      name: "Minimum Interval to Include Each Query",
+      link: "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+      patterns: [],
+      topic: "Intervals",
+      difficulty: "Hard"
+    },
+    {
       name: "Rotate Image",
       link: "https://leetcode.com/problems/rotate-image/",
       patterns: [],
@@ -601,6 +965,48 @@ export const NEETCODE_150_LIST =
       patterns: [],
       topic: "Math & Geometry",
       difficulty: "Medium"
+    },
+    {
+      name: "Happy Number",
+      link: "https://leetcode.com/problems/happy-number/",
+      patterns: [],
+      topic: "Math & Geometry",
+      difficulty: "Easy"
+    },
+    {
+      name: "Plus One",
+      link: "https://leetcode.com/problems/plus-one/",
+      patterns: [],
+      topic: "Math & Geometry",
+      difficulty: "Easy"
+    },
+    {
+      name: "Pow(x, n)",
+      link: "https://leetcode.com/problems/powx-n/",
+      patterns: [],
+      topic: "Math & Geometry",
+      difficulty: "Medium"
+    },
+    {
+      name: "Multiply Strings",
+      link: "https://leetcode.com/problems/multiply-strings/",
+      patterns: [],
+      topic: "Math & Geometry",
+      difficulty: "Medium"
+    },
+    {
+      name: "Detect Squares",
+      link: "https://leetcode.com/problems/detect-squares/",
+      patterns: [],
+      topic: "Math & Geometry",
+      difficulty: "Medium"
+    },
+    {
+      name: "Single Number",
+      link: "https://leetcode.com/problems/single-number/",
+      patterns: [],
+      topic: "Bit Manipulation",
+      difficulty: "Easy"
     },
     {
       name: "Number of 1 Bits",
@@ -633,6 +1039,13 @@ export const NEETCODE_150_LIST =
     {
       name: "Sum of Two Integers",
       link: "https://leetcode.com/problems/sum-of-two-integers/",
+      patterns: [],
+      topic: "Bit Manipulation",
+      difficulty: "Medium"
+    },
+    {
+      name: "Reverse Integer",
+      link: "https://leetcode.com/problems/reverse-integer/",
       patterns: [],
       topic: "Bit Manipulation",
       difficulty: "Medium"

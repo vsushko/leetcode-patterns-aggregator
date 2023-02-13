@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import { BLIND_75_LIST } from "./store/blind-seventy-five";
+import { NEETCODE_150_LIST } from "./store/neetcode-one-hundred-fifty";
+
 
 import './App.css';
 
@@ -39,7 +41,7 @@ class App extends Component {
                 </tr>
               </thead>
               <tbody>{
-                BLIND_75_LIST.map((problem, idx) => (
+                NEETCODE_150_LIST.map((problem, idx) => (
                   <tr>
                     <th scope="row">{idx + 1}</th>
                     <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>

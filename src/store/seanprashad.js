@@ -25,6 +25,6 @@ const seanprashadList =
     link: "",
     patterns: [],
     topic: "",
-    difficulty: "Easy"
+    difficulty: "Medium"
   },
   */
