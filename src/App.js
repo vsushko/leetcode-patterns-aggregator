@@ -50,7 +50,7 @@ class App extends Component {
                   value={this.state.listName}
                   onChange={this.onChange}>
                   <option value="BLIND_75_LIST">Blind 75</option>
-                  <option value="NEETCODE_150_LIST">Neetcode 75</option>
+                  <option value="NEETCODE_150_LIST">Neetcode 150</option>
                 </select>
               </fieldset>
             </form>
