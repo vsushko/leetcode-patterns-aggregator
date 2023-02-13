@@ -19,6 +19,19 @@ const getDifficultyColor = (difficulty) => {
 }
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      listName: 'BLIND_75_LIST',
+    };
+
+    this.onChange = this.onChange.bind(this);
+  }
+
+  onChange(e) {
+    this.setState({ listName: e.target.value });
+  }
+
   render() {
     return (
       <div className="App">
@@ -30,8 +43,21 @@ class App extends Component {
           </nav>
         </div>
         <div className="container-sm pt-3">
+          <div className="d-flex justify-content-start">
+            <form className="container-sm pt-3">
+              <fieldset>
+                <select className="form-select"
+                  value={this.state.listName}
+                  onChange={this.onChange}>
+                  <option value="BLIND_75_LIST">Blind 75</option>
+                  <option value="NEETCODE_150_LIST">Neetcode 75</option>
+                </select>
+              </fieldset>
+            </form>
+          </div>
+          <br />
           <div className="d-flex justify-content-center">
-            <table className="table table-sm table-bordered table-hover table-striped" style={{maxWidth: "1%", whiteSpace: "nowrap"}}>
+            <table className="table table-sm table-bordered table-hover table-striped" style={{ maxWidth: "1%", whiteSpace: "nowrap" }}>
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -40,17 +66,7 @@ class App extends Component {
                   <th scope="col">Difficulty</th>
                 </tr>
               </thead>
-              <tbody>{
-                NEETCODE_150_LIST.map((problem, idx) => (
-                  <tr>
-                    <th scope="row">{idx + 1}</th>
-                    <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
-                    <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
-                    <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
-                  </tr>
-                ))
-              }
-              </tbody>
+              <tbody> {renderList(this.state.listName)}</tbody>
             </table>
           </div>
         </div>
@@ -58,7 +74,32 @@ class App extends Component {
         </div>
       </div>
     );
+
+    function renderList(listName) {
+      if (listName === 'NEETCODE_150_LIST') {
+        return NEETCODE_150_LIST.map((problem, idx) => (
+          <tr>
+            <th scope="row">{idx + 1}</th>
+            <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+            <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+            <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+          </tr>
+        ));
+      }
+
+      if (listName === 'BLIND_75_LIST') {
+        return BLIND_75_LIST.map((problem, idx) => (
+          <tr>
+            <th scope="row">{idx + 1}</th>
+            <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+            <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+            <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+          </tr>
+        ));
+      }
+    }
   }
 }
+
 
 export default App;
