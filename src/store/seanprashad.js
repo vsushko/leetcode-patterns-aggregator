@@ -92,19 +92,105 @@ export const SEAN_PRASHAD_170_LIST =
       difficulty: "Medium"
     },
     {
-      name: "",
-      link: "",
-      patterns: [],
-      topic: "",
-      difficulty: "Medium"
+      name: "Minimum Depth of Binary Tree",
+      link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
     },
     {
       name: "Average of Levels in Binary Tree",
+      link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Clone Graph",
+      link: "https://leetcode.com/problems/clone-graph/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Pacific Atlantic Water Flow",
+      link: "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Islands",
+      link: "https://leetcode.com/problems/number-of-islands/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Graph Valid Tree",
+      link: "https://leetcode.com/problems/graph-valid-tree/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Connected Components in an Undirected Graph",
+      link: "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Course Schedule",
+      link: "https://leetcode.com/problems/course-schedule/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Course Schedule II",
+      link: "https://leetcode.com/problems/course-schedule-ii/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Minimum Height Trees",
+      link: "https://leetcode.com/problems/minimum-height-trees/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Tree Level Order Traversal II",
       link: "",
       patterns: ["Tree"],
       topic: "Tree",
       difficulty: "Medium"
     },
+    {
+      name: "",
+      link: "",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "",
+      link: "",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "",
+      link: "",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+
+    
   ];
   
 /*
