@@ -1,4 +1,4 @@
-const SEAN_PRASHAD_170_LIST =
+export sconst SEAN_PRASHAD_170_LIST =
   [
     {
       name: "Contains Duplicate",
