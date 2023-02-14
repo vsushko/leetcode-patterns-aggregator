@@ -1,4 +1,4 @@
-const seanprashadList =
+const SEAN_PRASHAD_170_LIST =
   [
     {
       name: "Contains Duplicate",

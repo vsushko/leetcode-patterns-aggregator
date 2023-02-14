@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { BLIND_75_LIST } from "./store/blind-seventy-five";
 import { NEETCODE_150_LIST } from "./store/neetcode-one-hundred-fifty";
+import { SEAN_PRASHAD_170_LIST } from "./store/seanprashad";
 
 
 import './App.css';
@@ -51,6 +52,7 @@ class App extends Component {
                   onChange={this.onChange}>
                   <option value="BLIND_75_LIST">Blind 75</option>
                   <option value="NEETCODE_150_LIST">Neetcode 150</option>
+                  <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
                 </select>
               </fieldset>
             </form>
@@ -97,9 +99,19 @@ class App extends Component {
           </tr>
         ));
       }
+
+      if (listName === 'SEAN_PRASHAD_170_LIST') {
+        return SEAN_PRASHAD_170_LIST.map((problem, idx) => (
+          <tr>
+            <th scope="row">{idx + 1}</th>
+            <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+            <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+            <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+          </tr>
+        ));
+      }
     }
   }
 }
-
 
 export default App;
