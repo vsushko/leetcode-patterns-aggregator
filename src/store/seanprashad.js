@@ -163,34 +163,123 @@ export const SEAN_PRASHAD_170_LIST =
     },
     {
       name: "Binary Tree Level Order Traversal II",
-      link: "",
+      link: "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
       patterns: ["Tree"],
       topic: "Tree",
       difficulty: "Medium"
     },
     {
-      name: "",
-      link: "",
-      patterns: ["Graph"],
-      topic: "Graph",
+      name: "Binary Tree Level Order Traversal",
+      link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      patterns: ["Tree"],
+      topic: "Tree",
       difficulty: "Medium"
     },
     {
-      name: "",
-      link: "",
-      patterns: ["Graph"],
-      topic: "Graph",
+      name: "Binary Tree Zigzag Level Order Traversal",
+      link: "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+      patterns: ["Tree"],
+      topic: "Tree",
       difficulty: "Medium"
     },
     {
-      name: "",
-      link: "",
-      patterns: ["Graph"],
-      topic: "Graph",
+      name: "Populating Next Right Pointers in Each Node",
+      link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+      patterns: ["Tree"],
+      topic: "Tree",
       difficulty: "Medium"
     },
-
-    
+    {
+      name: "Populating Next Right Pointers in Each Node II",
+      link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Tree Right Side View",
+      link: "https://leetcode.com/problems/binary-tree-right-side-view/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "All Nodes Distance K in Binary Tree",
+      link: "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Same Tree",
+      link: "https://leetcode.com/problems/same-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Path Sum",
+      link: "https://leetcode.com/problems/path-sum/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Maximum Depth of Binary Tree",
+      link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Diameter of Binary Tree",
+      link: "https://leetcode.com/problems/diameter-of-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Merge Two Binary Trees",
+      link: "https://leetcode.com/problems/merge-two-binary-trees/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Subtree of Another Tree",
+      link: "https://leetcode.com/problems/subtree-of-another-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Invert Binary Tree",
+      link: "https://leetcode.com/problems/invert-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Easy"
+    },
+    {
+      name: "Target Sum",
+      link: "https://leetcode.com/problems/target-sum/",
+      patterns: ["Dynamic Programming"],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Kth Smallest Element in a BST",
+      link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Lowest Common Ancestor of a Binary Search Tree",
+      link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
   ];
   
 /*
