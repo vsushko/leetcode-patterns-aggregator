@@ -19,6 +19,26 @@ const getDifficultyColor = (difficulty) => {
   }
 }
 
+const getListByName = (listName) => {
+  switch (listName) {
+    case 'NEETCODE_150_LIST': return NEETCODE_150_LIST;
+    case 'BLIND_75_LIST': return BLIND_75_LIST;
+    case 'SEAN_PRASHAD_170_LIST': return SEAN_PRASHAD_170_LIST;
+    default: return BLIND_75_LIST;
+  }
+}
+
+const renderList = (listName) => {
+  return getListByName(listName).map((problem, idx) => (
+    <tr>
+      <th scope="row">{idx + 1}</th>
+      <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+      <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+      <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+    </tr>
+  ));
+}
+
 class App extends Component {
   constructor() {
     super();
@@ -34,26 +54,6 @@ class App extends Component {
   }
 
   render() {
-    const getListByName = (listName) => {
-      switch (listName) {
-        case 'NEETCODE_150_LIST': return NEETCODE_150_LIST;
-        case 'BLIND_75_LIST': return BLIND_75_LIST;
-        case 'SEAN_PRASHAD_170_LIST': return SEAN_PRASHAD_170_LIST;
-        default: return BLIND_75_LIST;
-      }
-    }
-
-    const renderList = (listName) => {
-      return getListByName(listName).map((problem, idx) => (
-        <tr>
-          <th scope="row">{idx + 1}</th>
-          <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
-          <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
-          <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
-        </tr>
-      ));
-    }
-
     return (
       <div className="App">
         <div>
