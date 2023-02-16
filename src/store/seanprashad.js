@@ -280,6 +280,90 @@ export const SEAN_PRASHAD_170_LIST =
       topic: "Tree",
       difficulty: "Medium"
     },
+    {
+      name: "Path Sum II",
+      link: "https://leetcode.com/problems/path-sum-ii/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Path Sum III",
+      link: "https://leetcode.com/problems/path-sum-iii/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Lowest Common Ancestor of a Binary Tree",
+      link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Binary Tree",
+      link: "https://leetcode.com/problems/maximum-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Width of Binary Tree",
+      link: "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Construct Binary Tree from Preorder and Inorder Traversal",
+      link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Validate Binary Search Tree",
+      link: "https://leetcode.com/problems/validate-binary-search-tree/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Tree Maximum Path Sum",
+      link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+      patterns: ["Tree"],
+      topic: "Tree",
+      difficulty: "Hard"
+    },
+    {
+      name: "Word Search II",
+      link: "https://leetcode.com/problems/word-search-ii/",
+      patterns: [],
+      topic: "Tries",
+      difficulty: "Hard"
+    },
+    {
+      name: "Sort Items by Groups Respecting Dependencies",
+      link: "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Hard"
+    },
+    {
+      name: "Sequence Reconstruction",
+      link: "https://leetcode.com/problems/sequence-reconstruction/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Medium"
+    },
+    {
+      name: "Alien Dictionary",
+      link: "https://leetcode.com/problems/alien-dictionary/",
+      patterns: ["Graph"],
+      topic: "Graph",
+      difficulty: "Hard"
+    },
   ];
   
 /*
