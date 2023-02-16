@@ -4,7 +4,6 @@ import { BLIND_75_LIST } from "./store/blind-seventy-five";
 import { NEETCODE_150_LIST } from "./store/neetcode-one-hundred-fifty";
 import { SEAN_PRASHAD_170_LIST } from "./store/seanprashad";
 
-
 import './App.css';
 
 const getDifficultyColor = (difficulty) => {
@@ -24,12 +23,21 @@ const getListByName = (listName) => {
     case 'NEETCODE_150_LIST': return NEETCODE_150_LIST;
     case 'BLIND_75_LIST': return BLIND_75_LIST;
     case 'SEAN_PRASHAD_170_LIST': return SEAN_PRASHAD_170_LIST;
-    default: return BLIND_75_LIST;
+    default: return [...NEETCODE_150_LIST, ...BLIND_75_LIST, ...SEAN_PRASHAD_170_LIST];
   }
 }
 
 const renderList = (listName) => {
-  return getListByName(listName).map((problem, idx) => (
+  const list = getListByName(listName);
+
+  return list.reduce((acc, curr) => {
+    acc.push(
+      ...list
+        .filter(item => item === curr)
+        .sort((a, b) => a.name.localeCompare(b.name))
+    );
+    return acc;
+  }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index).map((problem, idx) => (
     <tr>
       <th scope="row">{idx + 1}</th>
       <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
@@ -63,33 +71,39 @@ class App extends Component {
             </div>
           </nav>
         </div>
-        <div className="container-sm pt-3">
+        <div className="container container-sm pt-3">
           <div className="d-flex justify-content-start">
             <form className="container-sm pt-3">
-              <fieldset>
+              <fieldset className="">
+                <label for="listSelect" className="form-label">Select list</label>
                 <select className="form-select"
                   value={this.state.listName}
                   onChange={this.onChange}>
                   <option value="BLIND_75_LIST">Blind 75</option>
                   <option value="NEETCODE_150_LIST">Neetcode 150</option>
                   <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
+                  <option value="ALL">All</option>
                 </select>
               </fieldset>
             </form>
           </div>
-          <br />
-          <div className="d-flex justify-content-center">
-            <table className="table table-sm table-bordered table-hover table-striped" style={{ maxWidth: "1%", whiteSpace: "nowrap" }}>
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Problem</th>
-                  <th scope="col">Pattern</th>
-                  <th scope="col">Difficulty</th>
-                </tr>
-              </thead>
-              <tbody> {renderList(this.state.listName)}</tbody>
-            </table>
+        </div>
+        <div className="container container-sm pt-3">
+          <div className="d-flex justify-content-center align-items-center">
+            <div>
+              <table className="table table-bordered table-hover table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col" className="checkbox" style={{ width: "5%" }}>#</th>
+                    <th scope="col" style={{ width: "50%" }}>Problem</th>
+                    <th scope="col" style={{ width: "35%" }}>Pattern</th>
+                    <th scope="col" style={{ width: "10%" }}>Difficulty</th>
+                  </tr>
+                </thead>
+                <tbody> {renderList(this.state.listName)}</tbody>
+              </table>
+            </div>
+
           </div>
         </div>
         <div>
@@ -98,5 +112,5 @@ class App extends Component {
     );
   }
 }
-
+// ""
 export default App;
