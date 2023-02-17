@@ -75,7 +75,7 @@ class App extends Component {
           <div className="d-flex justify-content-start">
             <form className="container-sm pt-3">
               <fieldset className="">
-                <label for="listSelect" className="form-label">Select list</label>
+                <label for="listSelect" className="form-label">Select a list:</label>
                 <select className="form-select"
                   value={this.state.listName}
                   onChange={this.onChange}>
@@ -112,5 +112,5 @@ class App extends Component {
     );
   }
 }
-// ""
+
 export default App;

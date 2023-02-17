@@ -364,6 +364,363 @@ export const SEAN_PRASHAD_170_LIST =
       topic: "Graph",
       difficulty: "Hard"
     },
+    {
+      name: "Find Smallest Letter Greater Than Target",
+      link: "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Easy"
+    },
+    {
+      name: "Binary Search",
+      link: "https://leetcode.com/problems/binary-search/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Easy"
+    },
+    {
+      name: "Kth Smallest Element in a Sorted Matrix",
+      link: "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Peak Index in a Mountain Array",
+      link: "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Find Minimum in Rotated Sorted Array",
+      link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Find Peak Element",
+      link: "https://leetcode.com/problems/find-peak-element/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Search in Rotated Sorted Array",
+      link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Search in Rotated Sorted Array II",
+      link: "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Search a 2D Matrix",
+      link: "https://leetcode.com/problems/search-a-2d-matrix/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Search a 2D Matrix II",
+      link: "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Find K Closest Elements",
+      link: "https://leetcode.com/problems/find-k-closest-elements/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Medium"
+    },
+    {
+      name: "Count of Range Sum",
+      link: "https://leetcode.com/problems/count-of-range-sum/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Hard"
+    },
+    {
+      name: "Median of Two Sorted Arrays",
+      link: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      patterns: ["Binary search"],
+      topic: "Binary search",
+      difficulty: "Hard"
+    },
+    {
+      name: "Squares of a Sorted Array",
+      link: "https://leetcode.com/problems/squares-of-a-sorted-array/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Easy"
+    },
+    {
+      name: "Merge Two Sorted Lists",
+      link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Easy"
+    },
+    {
+      name: "Two Sum",
+      link: "https://leetcode.com/problems/two-sum/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Easy"
+    },
+    {
+      name: "Backspace String Compare",
+      link: "https://leetcode.com/problems/backspace-string-compare/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Easy"
+    },
+    {
+      name: "3Sum",
+      link: "https://leetcode.com/problems/3sum/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "3Sum Closest",
+      link: "https://leetcode.com/problems/3sum-closest/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Subarray Product Less Than K",
+      link: "https://leetcode.com/problems/subarray-product-less-than-k/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Sort Colors",
+      link: "https://leetcode.com/problems/sort-colors/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Container With Most Water",
+      link: "https://leetcode.com/problems/container-with-most-water/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Trapping Rain Water",
+      link: "https://leetcode.com/problems/trapping-rain-water/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Hard"
+    },
+    {
+      name: "Counting Bits",
+      link: "https://leetcode.com/problems/counting-bits/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Counting Bits",
+      link: "https://leetcode.com/problems/counting-bits/",
+      patterns: ["Two Pointers"],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Linked List Cycle",
+      link: "https://leetcode.com/problems/linked-list-cycle/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Middle of the Linked List",
+      link: "https://leetcode.com/problems/middle-of-the-linked-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Palindrome Linked List",
+      link: "https://leetcode.com/problems/palindrome-linked-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Remove Linked List Elements",
+      link: "https://leetcode.com/problems/remove-linked-list-elements/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Remove Duplicates from Sorted List",
+      link: "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Linked List Cycle II",
+      link: "https://leetcode.com/problems/linked-list-cycle-ii/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Add Two Numbers",
+      link: "https://leetcode.com/problems/add-two-numbers/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Remove Nth Node From End of List",
+      link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Sort List",
+      link: "https://leetcode.com/problems/sort-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Reorder List",
+      link: "https://leetcode.com/problems/reorder-list/",
+      patterns: ["Fast & Slow Pointers"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Find K Pairs with Smallest Sums",
+      link: "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Meeting Rooms II",
+      link: "https://leetcode.com/problems/meeting-rooms-ii/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Task Scheduler",
+      link: "https://leetcode.com/problems/task-scheduler/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "K Closest Points to Origin",
+      link: "https://leetcode.com/problems/k-closest-points-to-origin/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Top K Frequent Elements",
+      link: "https://leetcode.com/problems/top-k-frequent-elements/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Sort Characters By Frequency",
+      link: "https://leetcode.com/problems/sort-characters-by-frequency/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Kth Largest Element in an Array",
+      link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Reorganize String",
+      link: "https://leetcode.com/problems/reorganize-string/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Medium"
+    },
+    {
+      name: "Merge k Sorted Lists",
+      link: "https://leetcode.com/problems/merge-k-sorted-lists/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Smallest Range Covering Elements from K Lists",
+      link: "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Employee Free Time",
+      link: "https://leetcode.com/problems/employee-free-time/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Rearrange String k Distance Apart",
+      link: "https://leetcode.com/problems/rearrange-string-k-distance-apart/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Course Schedule III",
+      link: "https://leetcode.com/problems/course-schedule-iii/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Maximum Frequency Stack",
+      link: "https://leetcode.com/problems/maximum-frequency-stack/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Find Median from Data Stream",
+      link: "https://leetcode.com/problems/find-median-from-data-stream/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
+    {
+      name: "Sliding Window Median",
+      link: "https://leetcode.com/problems/sliding-window-median/",
+      patterns: ["Heap"],
+      topic: "Heap",
+      difficulty: "Hard"
+    },
   ];
   
 /*
