@@ -847,16 +847,347 @@ export const SEAN_PRASHAD_170_LIST =
       topic: "Dynamic Programming",
       difficulty: "Medium"
     },
+    {
+      name: "Index Pairs of a String",
+      link: "https://leetcode.com/problems/index-pairs-of-a-string/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Easy"
+    },
+    {
+      name: "Implement Trie (Prefix Tree)",
+      link: "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Medium"
+    },
+    {
+      name: "Longest Word in Dictionary",
+      link: "https://leetcode.com/problems/longest-word-in-dictionary/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum XOR of Two Numbers in an Array",
+      link: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Medium"
+    },
+    {
+      name: "Concatenated Words",
+      link: "https://leetcode.com/problems/concatenated-words/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Hard"
+    },
+    {
+      name: "Prefix and Suffix Search",
+      link: "https://leetcode.com/problems/prefix-and-suffix-search/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Hard"
+    },
+    {
+      name: "Palindrome Pairs",
+      link: "https://leetcode.com/problems/palindrome-pairs/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Hard"
+    },
+    {
+      name: "Design Search Autocomplete System",
+      link: "https://leetcode.com/problems/design-search-autocomplete-system/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Hard"
+    },
+    {
+      name: "Word Squares",
+      link: "https://leetcode.com/problems/word-squares/",
+      patterns: ["Trie"],
+      topic: "Trie",
+      difficulty: "Hard"
+    },
+    {
+      name: "Best Time to Buy and Sell Stock",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      patterns: ["Greedy"],
+      topic: "Greedy",
+      difficulty: "Easy"
+    },
+    {
+      name: "Minimum Number of Arrows to Burst Balloons",
+      link: "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+      patterns: ["Greedy"],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Majority Element",
+      link: "https://leetcode.com/problems/majority-element/",
+      patterns: ["Sorting"],
+      topic: "Sorting",
+      difficulty: "Easy"
+    },
+    {
+      name: "Meeting Rooms",
+      link: "https://leetcode.com/problems/meeting-rooms/",
+      patterns: ["Intervals"],
+      topic: "Intervals",
+      difficulty: "Easy"
+    },
+    {
+      name: "Merge Intervals",
+      link: "https://leetcode.com/problems/merge-intervals/",
+      patterns: ["Intervals"],
+      topic: "Intervals",
+      difficulty: "Medium"
+    },
+    {
+      name: "Interval List Intersections",
+      link: "https://leetcode.com/problems/interval-list-intersections/",
+      patterns: ["Intervals"],
+      topic: "Intervals",
+      difficulty: "Medium"
+    },
+    {
+      name: "Non-overlapping Intervals",
+      link: "https://leetcode.com/problems/non-overlapping-intervals/",
+      patterns: ["Intervals"],
+      topic: "Intervals",
+      difficulty: "Medium"
+    },
+    {
+      name: "Insert Interval",
+      link: "https://leetcode.com/problems/insert-interval/",
+      patterns: ["Intervals"],
+      topic: "Intervals",
+      difficulty: "Medium"
+    },
+    {
+      name: "Reverse Linked List",
+      link: "https://leetcode.com/problems/reverse-linked-list/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Easy"
+    },
+    {
+      name: "Reverse Linked List II",
+      link: "https://leetcode.com/problems/reverse-linked-list-ii/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Swap Nodes in Pairs",
+      link: "https://leetcode.com/problems/swap-nodes-in-pairs/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Odd Even Linked List",
+      link: "https://leetcode.com/problems/odd-even-linked-list/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Medium"
+    },
+    {
+      name: "Reverse Nodes in k-Group",
+      link: "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Hard"
+    },
+    {
+      name: "Minimum Size Subarray Sum",
+      link: "https://leetcode.com/problems/minimum-size-subarray-sum/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
+      name: "Fruit Into Baskets",
+      link: "https://leetcode.com/problems/fruit-into-baskets/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
+      name: "Permutation in String",
+      link: "https://leetcode.com/problems/permutation-in-string/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
+      name: "Longest Repeating Character Replacement",
+      link: "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
+      name: "Longest Substring Without Repeating Characters",
+      link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Medium"
+    },
+    {
+      name: "Sliding Window Maximum",
+      link: "https://leetcode.com/problems/sliding-window-maximum/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Minimum Number of K Consecutive Bit Flips",
+      link: "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Count Unique Characters of All Substrings of a Given String",
+      link: "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Minimum Window Substring",
+      link: "https://leetcode.com/problems/minimum-window-substring/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Substring with Concatenation of All Words",
+      link: "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+      patterns: ["Sliding Window"],
+      topic: "Sliding Window",
+      difficulty: "Hard"
+    },
+    {
+      name: "Serialize and Deserialize Binary Tree",
+      link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      patterns: ["Linked List"],
+      topic: "Linked List",
+      difficulty: "Hard"
+    },
+    {
+      name: "Word Search",
+      link: "https://leetcode.com/problems/word-search/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Letter Case Permutation",
+      link: "https://leetcode.com/problems/letter-case-permutation/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Subsets",
+      link: "https://leetcode.com/problems/subsets/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Subsets II",
+      link: "https://leetcode.com/problems/subsets-ii/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Permutations",
+      link: "https://leetcode.com/problems/permutations/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Permutations II",
+      link: "https://leetcode.com/problems/permutations-ii/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combinations",
+      link: "https://leetcode.com/problems/combinations/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combination Sum",
+      link: "https://leetcode.com/problems/combination-sum/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combination Sum II",
+      link: "https://leetcode.com/problems/combination-sum-ii/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combination Sum III",
+      link: "https://leetcode.com/problems/combination-sum-iii/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Generate Parentheses",
+      link: "https://leetcode.com/problems/generate-parentheses/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Palindrome Partitioning",
+      link: "https://leetcode.com/problems/palindrome-partitioning/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Letter Combinations of a Phone Number",
+      link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Generalized Abbreviation",
+      link: "https://leetcode.com/problems/generalized-abbreviation/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Medium"
+    },
+    {
+      name: "Sudoku Solver",
+      link: "https://leetcode.com/problems/sudoku-solver/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Hard"
+    },
+    {
+      name: "N-Queens",
+      link: "https://leetcode.com/problems/n-queens/",
+      patterns: ["Backtracking"],
+      topic: "Backtracking",
+      difficulty: "Hard"
+    },
   ];
-  
-/*
-  {
-    name: "",
-    link: "",
-    patterns: [],
-    topic: "",
-    difficulty: "Medium"
-  },
-  */
-
-  
