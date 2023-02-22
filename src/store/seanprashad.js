@@ -721,6 +721,132 @@ export const SEAN_PRASHAD_170_LIST =
       topic: "Heap",
       difficulty: "Hard"
     },
+    {
+      name: "Climbing Stairs",
+      link: "https://leetcode.com/problems/climbing-stairs/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Easy"
+    },
+    {
+      name: "Range Sum Query - Immutable",
+      link: "https://leetcode.com/problems/range-sum-query-immutable/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Easy"
+    },
+    {
+      name: "House Robber",
+      link: "https://leetcode.com/problems/house-robber/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Subarray",
+      link: "https://leetcode.com/problems/maximum-subarray/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "House Robber II",
+      link: "https://leetcode.com/problems/house-robber-ii/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Coin Change",
+      link: "https://leetcode.com/problems/coin-change/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Product Subarray",
+      link: "https://leetcode.com/problems/maximum-product-subarray/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Longest Increasing Subsequence",
+      link: "https://leetcode.com/problems/longest-increasing-subsequence/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Word Break",
+      link: "https://leetcode.com/problems/word-break/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Combination Sum IV",
+      link: "https://leetcode.com/problems/combination-sum-iv/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Decode Ways",
+      link: "https://leetcode.com/problems/decode-ways/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Unique Paths",
+      link: "https://leetcode.com/problems/unique-paths/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Jump Game",
+      link: "https://leetcode.com/problems/jump-game/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Palindromic Substrings",
+      link: "https://leetcode.com/problems/palindromic-substrings/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Longest Increasing Subsequence",
+      link: "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Partition Equal Subset Sum",
+      link: "https://leetcode.com/problems/partition-equal-subset-sum/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Partition to K Equal Sum Subsets",
+      link: "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
+    {
+      name: "Best Time to Buy and Sell Stock with Cooldown",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+      patterns: [],
+      topic: "Dynamic Programming",
+      difficulty: "Medium"
+    },
   ];
   
 /*
