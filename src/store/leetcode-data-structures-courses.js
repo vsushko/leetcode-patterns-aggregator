@@ -152,7 +152,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "First Bad Version",
@@ -166,28 +166,28 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/find-peak-element/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Find Minimum in Rotated Sorted Array",
       link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Find First and Last Position of Element in Sorted Array",
       link: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Find K Closest Elements",
       link: "https://leetcode.com/problems/find-k-closest-elements/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Closest Binary Search Tree Value",
@@ -201,14 +201,14 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Pow(x, n)",
       link: "https://leetcode.com/problems/powx-n/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Valid Perfect Square",
@@ -229,7 +229,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Hard"
     },
     {
       name: "Intersection of Two Arrays",
@@ -250,33 +250,152 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Find the Duplicate Number",
       link: "https://leetcode.com/problems/find-the-duplicate-number/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Median of Two Sorted Arrays",
       link: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Hard"
     },
     {
       name: "Find K-th Smallest Pair Distance",
       link: "https://leetcode.com/problems/find-k-th-smallest-pair-distance/",
       topic: "Binary Search",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Hard"
     },
     {
       name: "Split Array Largest Sum",
       link: "https://leetcode.com/problems/split-array-largest-sum/",
       topic: "Binary Search",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Design Linked List",
+      link: "https://leetcode.com/problems/design-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Linked List Cycle",
+      link: "https://leetcode.com/problems/linked-list-cycle/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Linked List Cycle II",
+      link: "https://leetcode.com/problems/linked-list-cycle-ii/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Intersection of Two Linked Lists",
+      link: "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Remove Nth Node From End of List",
+      link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Reverse Linked List",
+      link: "https://leetcode.com/problems/reverse-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Remove Linked List Elements",
+      link: "https://leetcode.com/problems/remove-linked-list-elements/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Odd Even Linked List",
+      link: "https://leetcode.com/problems/odd-even-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Palindrome Linked List",
+      link: "https://leetcode.com/problems/palindrome-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Design Doubly Linked List",
+      link: "https://leetcode.com/problems/design-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Remove Duplicates from Sorted List",
+      link: "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Merge Two Sorted Lists",
+      link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Add Two Numbers",
+      link: "https://leetcode.com/problems/add-two-numbers/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Flatten a Multilevel Doubly Linked List",
+      link: "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Insert into a Sorted Circular Linked List",
+      link: "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/solution/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Copy List with Random Pointer",
+      link: "https://leetcode.com/problems/copy-list-with-random-pointer/",
+      topic: "Linked List",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Rotate List",
+      link: "https://leetcode.com/problems/rotate-list/",
+      topic: "Linked List",
       patterns: [],
       difficulty: "Easy"
     },
