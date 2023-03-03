@@ -399,6 +399,139 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       patterns: [],
       difficulty: "Easy"
     },
+    {
+      name: "Design Circular Queue",
+      link: "https://leetcode.com/problems/design-circular-queue/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Moving Average from Data Stream",
+      link: "https://leetcode.com/problems/moving-average-from-data-stream/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Walls and Gates",
+      link: "https://leetcode.com/problems/walls-and-gates/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Open the Lock",
+      link: "https://leetcode.com/problems/open-the-lock/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Perfect Squares",
+      link: "https://leetcode.com/problems/perfect-squares/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Min Stack",
+      link: "https://leetcode.com/problems/min-stack",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Valid Parentheses",
+      link: "https://leetcode.com/problems/valid-parentheses/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Daily Temperatures",
+      link: "https://leetcode.com/problems/daily-temperatures/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Evaluate Reverse Polish Notation",
+      link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Islands",
+      link: "https://leetcode.com/problems/number-of-islands/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Clone Graph",
+      link: "https://leetcode.com/problems/clone-graph/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Target Sum",
+      link: "https://leetcode.com/problems/target-sum/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Tree Inorder Traversal",
+      link: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Implement Queue using Stacks",
+      link: "https://leetcode.com/problems/implement-queue-using-stacks/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Implement Stack using Queues",
+      link: "https://leetcode.com/problems/implement-stack-using-queues/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Decode String",
+      link: "https://leetcode.com/problems/decode-string/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Flood Fill",
+      link: "https://leetcode.com/problems/flood-fill/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "01 Matrix",
+      link: "https://leetcode.com/problems/01-matrix/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Keys and Rooms",
+      link: "https://leetcode.com/problems/keys-and-rooms/",
+      topic: "Queue & Stack",
+      patterns: [],
+      difficulty: "Medium"
+    },
   ];
   
 /*
