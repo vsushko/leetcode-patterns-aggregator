@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leetcode-patterns-aggregator/static/css/main.64801d00.css",
-    "main.js": "/leetcode-patterns-aggregator/static/js/main.df72c4f1.js",
+    "main.js": "/leetcode-patterns-aggregator/static/js/main.e7d2dfb4.js",
     "static/js/787.d529e45e.chunk.js": "/leetcode-patterns-aggregator/static/js/787.d529e45e.chunk.js",
     "index.html": "/leetcode-patterns-aggregator/index.html",
     "main.64801d00.css.map": "/leetcode-patterns-aggregator/static/css/main.64801d00.css.map",
-    "main.df72c4f1.js.map": "/leetcode-patterns-aggregator/static/js/main.df72c4f1.js.map",
+    "main.e7d2dfb4.js.map": "/leetcode-patterns-aggregator/static/js/main.e7d2dfb4.js.map",
     "787.d529e45e.chunk.js.map": "/leetcode-patterns-aggregator/static/js/787.d529e45e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64801d00.css",
-    "static/js/main.df72c4f1.js"
+    "static/js/main.e7d2dfb4.js"
   ]
 }
