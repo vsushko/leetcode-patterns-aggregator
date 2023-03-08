@@ -959,13 +959,473 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       patterns: [],
       difficulty: "Medium"
     },
-  ];
-/*
+    {
+      name: "Binary Tree Preorder Traversal",
+      link: "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Binary Tree Inorder Traversal",
+      link: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Binary Tree Postorder Traversal",
+      link: "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Binary Tree Level Order Traversal",
+      link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Depth of Binary Tree",
+      link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Symmetric Tree",
+      link: "https://leetcode.com/problems/symmetric-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Path Sum",
+      link: "https://leetcode.com/problems/path-sum/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Same Tree",
+      link: "https://leetcode.com/problems/same-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Invert Binary Tree",
+      link: "https://leetcode.com/problems/invert-binary-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Binary Tree Maximum Path Sum",
+      link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Count Univalue Subtrees",
+      link: "https://leetcode.com/problems/count-univalue-subtrees/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Serialize and Deserialize Binary Tree",
+      link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Construct Binary Tree from Inorder and Postorder Traversal",
+      link: "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Construct Binary Tree from Preorder and Inorder Traversal",
+      link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Populating Next Right Pointers in Each Node",
+      link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Populating Next Right Pointers in Each Node II",
+      link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Lowest Common Ancestor of a Binary Tree",
+      link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Subtree of Another Tree",
+      link: "https://leetcode.com/problems/subtree-of-another-tree/",
+      topic: "Binary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
     {
       name: "",
       link: "",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "N-ary Tree Preorder Traversal",
+      link: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "N-ary Tree Postorder Traversal",
+      link: "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "N-ary Tree Level Order Traversal",
+      link: "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum Depth of N-ary Tree",
+      link: "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Maximum Depth of N-ary Tree",
+      link: "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Encode N-ary Tree to Binary Tree",
+      link: "https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Serialize and Deserialize N-ary Tree",
+      link: "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+      topic: "N-ary Tree",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Validate Binary Search Tree",
+      link: "https://leetcode.com/problems/validate-binary-search-tree/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Inorder Successor in BST",
+      link: "https://leetcode.com/problems/inorder-successor-in-bst/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Binary Search Tree Iterator",
+      link: "https://leetcode.com/problems/binary-search-tree-iterator/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Search in a Binary Search Tree",
+      link: "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Insert into a Binary Search Tree",
+      link: "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Delete Node in a BST",
+      link: "https://leetcode.com/problems/delete-node-in-a-bst/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Kth Largest Element in a Stream",
+      link: "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Lowest Common Ancestor of a Binary Search Tree",
+      link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Contains Duplicate III",
+      link: "https://leetcode.com/problems/contains-duplicate-iii/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Balanced Binary Tree",
+      link: "https://leetcode.com/problems/balanced-binary-tree/",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Convert Sorted Array to Binary Search Tree",
+      link: "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree",
+      topic: "Binary Search Tree",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Implement Trie (Prefix Tree)",
+      link: "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Map Sum Pairs",
+      link: "https://leetcode.com/problems/map-sum-pairs/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Replace Words",
+      link: "https://leetcode.com/problems/replace-words/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Design Search Autocomplete System",
+      link: "https://leetcode.com/problems/design-search-autocomplete-system/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Design Add and Search Words Data Structure",
+      link: "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Maximum XOR of Two Numbers in an Array",
+      link: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Word Search II",
+      link: "https://leetcode.com/problems/word-search-ii/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Word Squares",
+      link: "https://leetcode.com/problems/word-squares/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Palindrome Pairs",
+      link: "https://leetcode.com/problems/palindrome-pairs/",
+      topic: "Trie",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Find Pivot Index",
+      link: "https://leetcode.com/problems/find-pivot-index/",
       topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
-*/
+    {
+      name: "Largest Number At Least Twice of Others",
+      link: "https://leetcode.com/problems/largest-number-at-least-twice-of-others/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Plus One",
+      link: "https://leetcode.com/problems/plus-one/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Diagonal Traverse",
+      link: "https://leetcode.com/problems/diagonal-traverse/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Spiral Matrix",
+      link: "https://leetcode.com/problems/spiral-matrix/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Pascal's Triangle",
+      link: "https://leetcode.com/problems/pascals-triangle/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Add Binary",
+      link: "https://leetcode.com/problems/add-binary/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Implement strStr()",
+      link: "https://leetcode.com/problems/implement-strstr/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Longest Common Prefix",
+      link: "https://leetcode.com/problems/longest-common-prefix/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Reverse String",
+      link: "https://leetcode.com/problems/reverse-string/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Array Partition I",
+      link: "https://leetcode.com/problems/array-partition-i/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Two Sum II - Input Array Is Sorted",
+      link: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Remove Element",
+      link: "https://leetcode.com/problems/remove-element/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Max Consecutive Ones",
+      link: "https://leetcode.com/problems/max-consecutive-ones/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Minimum Size Subarray Sum",
+      link: "https://leetcode.com/problems/minimum-size-subarray-sum/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Rotate Array",
+      link: "https://leetcode.com/problems/rotate-array/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Pascal's Triangle II",
+      link: "https://leetcode.com/problems/pascals-triangle-ii/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Reverse Words in a String",
+      link: "https://leetcode.com/problems/reverse-words-in-a-string/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Reverse Words in a String III",
+      link: "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Remove Duplicates from Sorted Array",
+      link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Move Zeroes",
+      link: "https://leetcode.com/problems/move-zeroes/",
+      topic: "Arrays",
+      patterns: [],
+      difficulty: "Easy"
+    },
+  ];
