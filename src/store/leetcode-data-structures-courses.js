@@ -535,166 +535,431 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Design HashSet",
       link: "https://leetcode.com/problems/design-hashset/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Design HashMap",
       link: "https://leetcode.com/problems/design-hashmap",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Contains Duplicate",
       link: "https://leetcode.com/problems/contains-duplicate",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Single Number",
       link: "https://leetcode.com/problems/single-number/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Intersection of Two Arrays",
       link: "https://leetcode.com/problems/intersection-of-two-arrays/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Happy Number",
       link: "https://leetcode.com/problems/happy-number/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Two Sum",
       link: "https://leetcode.com/problems/two-sum",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Isomorphic Strings",
       link: "https://leetcode.com/problems/isomorphic-strings/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Minimum Index Sum of Two Lists",
       link: "https://leetcode.com/problems/minimum-index-sum-of-two-lists/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "First Unique Character in a String",
       link: "https://leetcode.com/problems/first-unique-character-in-a-string/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Intersection of Two Arrays II",
       link: "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Contains Duplicate II",
       link: "https://leetcode.com/problems/contains-duplicate-ii/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Logger Rate Limiter",
       link: "https://leetcode.com/problems/logger-rate-limiter/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Group Anagrams",
       link: "https://leetcode.com/problems/group-anagrams/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Group Shifted Strings",
       link: "https://leetcode.com/problems/group-shifted-strings/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Valid Sudoku",
       link: "https://leetcode.com/problems/valid-sudoku/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Find Duplicate Subtrees",
       link: "https://leetcode.com/problems/find-duplicate-subtrees/",
-      topic: "Hash Table",
+      topic: "",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "4Sum II",
       link: "https://leetcode.com/problems/4sum-ii/solution/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Longest Substring Without Repeating Characters",
       link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Two Sum III - Data structure design",
       link: "https://leetcode.com/problems/two-sum-iii-data-structure-design/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Jewels and Stones",
       link: "https://leetcode.com/problems/jewels-and-stones/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Unique Word Abbreviation",
       link: "https://leetcode.com/problems/unique-word-abbreviation/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Insert Delete GetRandom O(1)",
       link: "https://leetcode.com/problems/insert-delete-getrandom-o1/",
-      topic: "Hash Table",
+      topic: "Arrays & Hashing",
       patterns: [],
       difficulty: "Easy"
     },
+    {
+      name: "Kth Largest Element in an Array",
+      link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Top K Frequent Elements",
+      link: "https://leetcode.com/problems/top-k-frequent-elements/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Kth Largest Element in a Stream",
+      link: "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Last Stone Weight",
+      link: "https://leetcode.com/problems/last-stone-weight/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "The K Weakest Rows in a Matrix",
+      link: "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Kth Smallest Element in a Sorted Matrix",
+      link: "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Meeting Rooms II",
+      link: "https://leetcode.com/problems/meeting-rooms-ii/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "K Closest Points to Origin",
+      link: "https://leetcode.com/problems/k-closest-points-to-origin/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Minimum Cost to Connect Sticks",
+      link: "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Furthest Building You Can Reach",
+      link: "https://leetcode.com/problems/furthest-building-you-can-reach/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Find Median from Data Stream",
+      link: "https://leetcode.com/problems/find-median-from-data-stream/",
+      topic: "Heap",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Number of Provinces",
+      link: "https://leetcode.com/problems/number-of-provinces/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Graph Valid Tree",
+      link: "https://leetcode.com/problems/graph-valid-tree/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Islands",
+      link: "https://leetcode.com/problems/number-of-islands/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Number of Connected Components in an Undirected Graph",
+      link: "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "The Earliest Moment When Everyone Become Friends",
+      link: "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Smallest String With Swaps",
+      link: "https://leetcode.com/problems/smallest-string-with-swaps/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Evaluate Division",
+      link: "https://leetcode.com/problems/evaluate-division/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Optimize Water Distribution in a Village",
+      link: "https://leetcode.com/problems/optimize-water-distribution-in-a-village/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Find if Path Exists in Graph",
+      link: "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "All Paths From Source to Target",
+      link: "https://leetcode.com/problems/all-paths-from-source-lead-to-destination/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Clone Graph",
+      link: "https://leetcode.com/problems/clone-graph/solution/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Reconstruct Itinerary",
+      link: "https://leetcode.com/problems/reconstruct-itinerary/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "All Paths from Source Lead to Destination",
+      link: "https://leetcode.com/problems/all-paths-from-source-lead-to-destination/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Find if Path Exists in Graph",
+      link: "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
+      name: "Populating Next Right Pointers in Each Node",
+      link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Shortest Path in Binary Matrix",
+      link: "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "N-ary Tree Level Order Traversal",
+      link: "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Rotting Oranges",
+      link: "https://leetcode.com/problems/rotting-oranges/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: " Min Cost to Connect All Points (Kruskal)",
+      link: "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+      topic: "Graph",
+      patterns: ["Kruskal", "Prim"],
+      difficulty: "Medium"
+    },
+    {
+      name: "Network Delay Time",
+      link: "https://leetcode.com/problems/network-delay-time/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Cheapest Flights Within K Stops",
+      link: "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Path With Minimum Effort",
+      link: "https://leetcode.com/problems/path-with-minimum-effort/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Course Schedule",
+      link: "https://leetcode.com/problems/course-schedule/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Course Schedule II",
+      link: "https://leetcode.com/problems/course-schedule-ii/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Alien Dictionary",
+      link: "https://leetcode.com/problems/alien-dictionary/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Hard"
+    },
+    {
+      name: "Minimum Height Trees",
+      link: "https://leetcode.com/problems/minimum-height-trees/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
+    {
+      name: "Parallel Courses",
+      link: "https://leetcode.com/problems/parallel-courses/",
+      topic: "Graph",
+      patterns: [],
+      difficulty: "Medium"
+    },
   ];
-
 /*
     {
       name: "",
