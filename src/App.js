@@ -49,11 +49,18 @@ const renderList = (listName) => {
   ));
 }
 
+const renderOptions = (patternsList) => {
+  const list = getListByName();
+  console.log(list);
+  return (<option value="ALL">All</option>);
+}
+
 class App extends Component {
   constructor() {
     super();
     this.state = {
       listName: 'BLIND_75_LIST',
+      patternsList: ['ALL']
     };
 
     this.onChange = this.onChange.bind(this);
@@ -76,17 +83,29 @@ class App extends Component {
         <div className="container container-sm pt-3">
           <div className="d-flex justify-content-start">
             <form className="container-sm pt-3">
-              <fieldset className="">
-                <label for="listSelect" className="form-label">Select a list:</label>
-                <select className="form-select"
-                  value={this.state.listName}
-                  onChange={this.onChange}>
-                  <option value="BLIND_75_LIST">Blind 75</option>
-                  <option value="NEETCODE_150_LIST">Neetcode 150</option>
-                  <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
-                  <option value="LEETCODE_DATA_STRUCTURES_COURSES_LIST">Leetcode DS courses</option>
-                  <option value="ALL">All</option>
-                </select>
+              <fieldset className="d-flex justify-content-start">
+                <div className="container-sm">
+                  <label for="listSelect" className="form-label">Select the list:</label>
+                </div>
+                <div className="container-sm">
+                  <select className="form-select" value={this.state.listName} onChange={this.onChange}>
+                    <option value="BLIND_75_LIST">Blind 75</option>
+                    <option value="NEETCODE_150_LIST">Neetcode 150</option>
+                    <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
+                    <option value="LEETCODE_DATA_STRUCTURES_COURSES_LIST">Leetcode DS courses</option>
+                    <option value="ALL">All</option>
+                  </select>
+                </div>
+              </fieldset>
+              <fieldset className="d-flex justify-content-start pt-3">
+                <div className="container-sm">
+                  <label for="listSelect" className="form-label">Select the pattern:</label>
+                </div>
+                <div className="container-sm">
+                  <select className="form-select" value={this.state.listName} onChange={this.onChange}>
+                    {renderOptions(this.state.patternsList)}
+                  </select>
+                </div>
               </fieldset>
             </form>
           </div>
@@ -106,7 +125,6 @@ class App extends Component {
                 <tbody> {renderList(this.state.listName)}</tbody>
               </table>
             </div>
-
           </div>
         </div>
         <div>
