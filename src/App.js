@@ -4,6 +4,7 @@ import { BLIND_75_LIST } from "./store/blind-seventy-five";
 import { NEETCODE_150_LIST } from "./store/neetcode-one-hundred-fifty";
 import { SEAN_PRASHAD_170_LIST } from "./store/seanprashad";
 import { LEETCODE_DATA_STRUCTURES_COURSES_LIST } from "./store/leetcode-data-structures-courses";
+import { BARIK_LIST } from "./store/barik";
 
 import './App.css';
 
@@ -25,7 +26,8 @@ const getListByName = (listName) => {
     case 'BLIND_75_LIST': return BLIND_75_LIST;
     case 'SEAN_PRASHAD_170_LIST': return SEAN_PRASHAD_170_LIST;
     case 'LEETCODE_DATA_STRUCTURES_COURSES_LIST': return LEETCODE_DATA_STRUCTURES_COURSES_LIST;
-    default: return [...NEETCODE_150_LIST, ...BLIND_75_LIST, ...SEAN_PRASHAD_170_LIST, ...LEETCODE_DATA_STRUCTURES_COURSES_LIST];
+    case 'BARIK_LIST': return BARIK_LIST;
+    default: return [...NEETCODE_150_LIST, ...BLIND_75_LIST, ...SEAN_PRASHAD_170_LIST, ...LEETCODE_DATA_STRUCTURES_COURSES_LIST, ...BARIK_LIST];
   }
 }
 
@@ -93,6 +95,7 @@ class App extends Component {
                     <option value="NEETCODE_150_LIST">Neetcode 150</option>
                     <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
                     <option value="LEETCODE_DATA_STRUCTURES_COURSES_LIST">Leetcode DS courses</option>
+                    <option value="BARIK_LIST">Barik course</option>
                     <option value="ALL">All</option>
                   </select>
                 </div>
