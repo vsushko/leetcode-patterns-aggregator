@@ -113,7 +113,7 @@ class App extends Component {
             </form>
           </div>
         </div>
-        <div className="container container-sm pt-3">
+        <div className="container container-sm pt-3 vh-100 overflow-auto">
           <div className="d-flex justify-content-center align-items-center">
             <div>
               <table className="table table-bordered table-hover table-striped">
