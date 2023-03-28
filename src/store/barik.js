@@ -14,4 +14,11 @@ export const BARIK_LIST =
       topic: "String",
       difficulty: "Medium"
     },
+    {
+      name: "Longest Valid Parentheses",
+      link: "https://leetcode.com/problems/longest-valid-parentheses/",
+      patterns: ["Queue & Stack"],
+      topic: "String",
+      difficulty: "Hard"
+    },
   ];
