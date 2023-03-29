@@ -4,7 +4,7 @@ export const BARIK_LIST =
       name: "Factorial Trailing Zeroes",
       link: "https://leetcode.com/problems/factorial-trailing-zeroes/",
       patterns: ["Integer"],
-      topic: "Math",
+      topic: "Math & Geometry",
       difficulty: "Medium"
     },
     {
@@ -18,6 +18,13 @@ export const BARIK_LIST =
       name: "Longest Valid Parentheses",
       link: "https://leetcode.com/problems/longest-valid-parentheses/",
       patterns: ["Queue & Stack"],
+      topic: "String",
+      difficulty: "Hard"
+    },
+    {
+      name: "Integer to English Words",
+      link: "https://leetcode.com/problems/integer-to-english-words/description/",
+      patterns: ["Math & Geometry"],
       topic: "String",
       difficulty: "Hard"
     },
