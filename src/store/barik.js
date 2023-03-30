@@ -28,4 +28,11 @@ export const BARIK_LIST =
       topic: "String",
       difficulty: "Hard"
     },
+    {
+      name: "Binary Tree Zigzag Level Order Traversal",
+      link: "https://leetcode.com/problems/integer-to-english-words/description/",
+      patterns: ["Math & Geometry"],
+      topic: "BFS",
+      difficulty: "Medium"
+    }
   ];
