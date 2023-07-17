@@ -773,7 +773,7 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Longest Increasing Subsequence",
       link: "https://leetcode.com/problems/longest-increasing-subsequence/",
-      patterns: [],
+      patterns: ["Binary Search"],
       topic: "Dynamic Programming",
       difficulty: "Medium"
     },

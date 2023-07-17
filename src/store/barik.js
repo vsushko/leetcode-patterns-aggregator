@@ -10,7 +10,7 @@ export const BARIK_LIST =
     {
       name: "Repeated DNA Sequences",
       link: "https://leetcode.com/problems/repeated-dna-sequences/description/",
-      patterns: ["Arrays & Hashing"],
+      patterns: ["Arrays"],
       topic: "String",
       difficulty: "Medium"
     },

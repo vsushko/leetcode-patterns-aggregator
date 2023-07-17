@@ -3,21 +3,21 @@ export const BLIND_75_LIST =
     {
       name: "Contains Duplicate",
       link: "https://leetcode.com/problems/contains-duplicate/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Valid Anagram",
       link: "https://leetcode.com/problems/valid-anagram/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Two Sum",
       link: "https://leetcode.com/problems/two-sum/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
@@ -25,35 +25,35 @@ export const BLIND_75_LIST =
       name: "Group Anagrams",
       link: "https://leetcode.com/problems/group-anagrams/",
       patterns: [],
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       difficulty: "Medium"
     },
     {
       name: "Top K Frequent Elements",
       link: "https://leetcode.com/problems/top-k-frequent-elements/",
       patterns: [],
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       difficulty: "Medium"
     },
     {
       name: "Product of Array Except Self",
       link: "https://leetcode.com/problems/product-of-array-except-self/",
       patterns: [],
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       difficulty: "Medium"
     },
     {
       name: "Encode And Decode Strings",
       link: "https://leetcode.com/problems/encode-and-decode-strings/",
       patterns: [],
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       difficulty: "Medium"
     },
     {
       name: "Longest Consecutive Sequence",
       link: "https://leetcode.com/problems/longest-consecutive-sequence/",
       patterns: [],
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       difficulty: "Medium"
     },
     {
@@ -402,7 +402,7 @@ export const BLIND_75_LIST =
     {
       name: "Longest Increasing Subsequence",
       link: "https://leetcode.com/problems/longest-increasing-subsequence/",
-      patterns: [],
+      patterns: ["Binary Search"],
       topic: "1-D Dynamic Programming",
       difficulty: "Medium"
     },

@@ -535,112 +535,112 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Design HashSet",
       link: "https://leetcode.com/problems/design-hashset/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Design HashMap",
       link: "https://leetcode.com/problems/design-hashmap",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Contains Duplicate",
       link: "https://leetcode.com/problems/contains-duplicate",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Single Number",
       link: "https://leetcode.com/problems/single-number/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Intersection of Two Arrays",
       link: "https://leetcode.com/problems/intersection-of-two-arrays/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Happy Number",
       link: "https://leetcode.com/problems/happy-number/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Two Sum",
       link: "https://leetcode.com/problems/two-sum",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Isomorphic Strings",
       link: "https://leetcode.com/problems/isomorphic-strings/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Minimum Index Sum of Two Lists",
       link: "https://leetcode.com/problems/minimum-index-sum-of-two-lists/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "First Unique Character in a String",
       link: "https://leetcode.com/problems/first-unique-character-in-a-string/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Intersection of Two Arrays II",
       link: "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Contains Duplicate II",
       link: "https://leetcode.com/problems/contains-duplicate-ii/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Logger Rate Limiter",
       link: "https://leetcode.com/problems/logger-rate-limiter/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Group Anagrams",
       link: "https://leetcode.com/problems/group-anagrams/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Group Shifted Strings",
       link: "https://leetcode.com/problems/group-shifted-strings/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Valid Sudoku",
       link: "https://leetcode.com/problems/valid-sudoku/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
@@ -654,42 +654,42 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "4Sum II",
       link: "https://leetcode.com/problems/4sum-ii/solution/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Longest Substring Without Repeating Characters",
       link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Two Sum III - Data structure design",
       link: "https://leetcode.com/problems/two-sum-iii-data-structure-design/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Jewels and Stones",
       link: "https://leetcode.com/problems/jewels-and-stones/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Unique Word Abbreviation",
       link: "https://leetcode.com/problems/unique-word-abbreviation/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Insert Delete GetRandom O(1)",
       link: "https://leetcode.com/problems/insert-delete-getrandom-o1/",
-      topic: "Arrays & Hashing",
+      topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
     },
