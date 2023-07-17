@@ -94,15 +94,15 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Minimum Depth of Binary Tree",
       link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Average of Levels in Binary Tree",
       link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
@@ -164,99 +164,99 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Binary Tree Level Order Traversal II",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Zigzag Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Populating Next Right Pointers in Each Node",
       link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Populating Next Right Pointers in Each Node II",
       link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Right Side View",
       link: "https://leetcode.com/problems/binary-tree-right-side-view/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "All Nodes Distance K in Binary Tree",
       link: "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Same Tree",
       link: "https://leetcode.com/problems/same-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Path Sum",
       link: "https://leetcode.com/problems/path-sum/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Maximum Depth of Binary Tree",
       link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Diameter of Binary Tree",
       link: "https://leetcode.com/problems/diameter-of-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Merge Two Binary Trees",
       link: "https://leetcode.com/problems/merge-two-binary-trees/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Subtree of Another Tree",
       link: "https://leetcode.com/problems/subtree-of-another-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
       name: "Invert Binary Tree",
       link: "https://leetcode.com/problems/invert-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Easy"
     },
     {
@@ -269,71 +269,71 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Kth Smallest Element in a BST",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Lowest Common Ancestor of a Binary Search Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Path Sum II",
       link: "https://leetcode.com/problems/path-sum-ii/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Path Sum III",
       link: "https://leetcode.com/problems/path-sum-iii/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Lowest Common Ancestor of a Binary Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Maximum Binary Tree",
       link: "https://leetcode.com/problems/maximum-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Maximum Width of Binary Tree",
       link: "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Construct Binary Tree from Preorder and Inorder Traversal",
       link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Validate Binary Search Tree",
       link: "https://leetcode.com/problems/validate-binary-search-tree/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Maximum Path Sum",
       link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-      patterns: ["Tree"],
-      topic: "Tree",
+      patterns: ["Trees"],
+      topic: "Trees",
       difficulty: "Hard"
     },
     {
@@ -367,92 +367,92 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Find Smallest Letter Greater Than Target",
       link: "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Easy"
     },
     {
       name: "Binary Search",
       link: "https://leetcode.com/problems/binary-search/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Easy"
     },
     {
       name: "Kth Smallest Element in a Sorted Matrix",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Peak Index in a Mountain Array",
       link: "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Find Minimum in Rotated Sorted Array",
       link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Find Peak Element",
       link: "https://leetcode.com/problems/find-peak-element/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Search in Rotated Sorted Array",
       link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Search in Rotated Sorted Array II",
       link: "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Search a 2D Matrix",
       link: "https://leetcode.com/problems/search-a-2d-matrix/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Search a 2D Matrix II",
       link: "https://leetcode.com/problems/search-a-2d-matrix-ii/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Find K Closest Elements",
       link: "https://leetcode.com/problems/find-k-closest-elements/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Medium"
     },
     {
       name: "Count of Range Sum",
       link: "https://leetcode.com/problems/count-of-range-sum/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Hard"
     },
     {
       name: "Median of Two Sorted Arrays",
       link: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-      patterns: ["Binary search"],
-      topic: "Binary search",
+      patterns: ["Binary Search"],
+      topic: "Binary Search",
       difficulty: "Hard"
     },
     {
@@ -612,113 +612,113 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Find K Pairs with Smallest Sums",
       link: "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Meeting Rooms II",
       link: "https://leetcode.com/problems/meeting-rooms-ii/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Task Scheduler",
       link: "https://leetcode.com/problems/task-scheduler/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "K Closest Points to Origin",
       link: "https://leetcode.com/problems/k-closest-points-to-origin/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Top K Frequent Elements",
       link: "https://leetcode.com/problems/top-k-frequent-elements/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Sort Characters By Frequency",
       link: "https://leetcode.com/problems/sort-characters-by-frequency/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Kth Largest Element in an Array",
       link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Reorganize String",
       link: "https://leetcode.com/problems/reorganize-string/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Medium"
     },
     {
       name: "Merge k Sorted Lists",
       link: "https://leetcode.com/problems/merge-k-sorted-lists/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Smallest Range Covering Elements from K Lists",
       link: "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Employee Free Time",
       link: "https://leetcode.com/problems/employee-free-time/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Rearrange String k Distance Apart",
       link: "https://leetcode.com/problems/rearrange-string-k-distance-apart/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Course Schedule III",
       link: "https://leetcode.com/problems/course-schedule-iii/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Maximum Frequency Stack",
       link: "https://leetcode.com/problems/maximum-frequency-stack/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Find Median from Data Stream",
       link: "https://leetcode.com/problems/find-median-from-data-stream/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
       name: "Sliding Window Median",
       link: "https://leetcode.com/problems/sliding-window-median/",
-      patterns: ["Heap"],
-      topic: "Heap",
+      patterns: ["Heap / Priority Queue"],
+      topic: "Heap / Priority Queue",
       difficulty: "Hard"
     },
     {
@@ -850,64 +850,64 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Index Pairs of a String",
       link: "https://leetcode.com/problems/index-pairs-of-a-string/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Easy"
     },
     {
       name: "Implement Trie (Prefix Tree)",
       link: "https://leetcode.com/problems/implement-trie-prefix-tree/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
       name: "Longest Word in Dictionary",
       link: "https://leetcode.com/problems/longest-word-in-dictionary/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
       name: "Maximum XOR of Two Numbers in an Array",
       link: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
       name: "Concatenated Words",
       link: "https://leetcode.com/problems/concatenated-words/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Hard"
     },
     {
       name: "Prefix and Suffix Search",
       link: "https://leetcode.com/problems/prefix-and-suffix-search/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Hard"
     },
     {
       name: "Palindrome Pairs",
       link: "https://leetcode.com/problems/palindrome-pairs/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Hard"
     },
     {
       name: "Design Search Autocomplete System",
       link: "https://leetcode.com/problems/design-search-autocomplete-system/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Hard"
     },
     {
       name: "Word Squares",
       link: "https://leetcode.com/problems/word-squares/",
-      patterns: ["Trie"],
-      topic: "Trie",
+      patterns: ["Tries"],
+      topic: "Tries",
       difficulty: "Hard"
     },
     {

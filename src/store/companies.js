@@ -32,7 +32,7 @@ export const COMPANIES_LIST =
       name: "One Edit Distance",
       link: "https://leetcode.com/problems/one-edit-distance/",
       patterns: [""],
-      topic: "Two pointers",
+      topic: "Two Pointers",
       difficulty: "Medium"
     },
     {
@@ -60,7 +60,7 @@ export const COMPANIES_LIST =
       name: "Top K Frequent Words",
       link: "https://leetcode.com/problems/top-k-frequent-words",
       patterns: [""],
-      topic: "Trie",
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
@@ -81,7 +81,7 @@ export const COMPANIES_LIST =
       name: "String Compression",
       link: "https://leetcode.com/problems/string-compression",
       patterns: [""],
-      topic: "Two pointers",
+      topic: "Two Pointers",
       difficulty: "Medium"
     },
     {
@@ -116,14 +116,14 @@ export const COMPANIES_LIST =
       name: "Simplify Path",
       link: "https://leetcode.com/problems/simplify-path",
       patterns: [""],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Remove Invalid Parentheses",
       link: "https://leetcode.com/problems/remove-invalid-parentheses/",
       patterns: [""],
-      topic: "BFS",
+      topic: "Backtracking",
       difficulty: "Hard"
     },
     {

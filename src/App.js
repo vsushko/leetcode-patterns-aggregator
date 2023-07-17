@@ -33,7 +33,7 @@ const getListByName = (listName) => {
   }
 }
 
-const renderList = (listName) => {
+const renderList = (listName, pattern) => {
   const list = getListByName(listName);
 
   return list.reduce((acc, curr) => {
@@ -43,20 +43,29 @@ const renderList = (listName) => {
         .sort((a, b) => a.name.localeCompare(b.name))
     );
     return acc;
-  }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index).map((problem, idx) => (
-    <tr>
-      <th scope="row">{idx + 1}</th>
-      <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
-      <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
-      <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
-    </tr>
-  ));
+  }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index)
+    .filter(obj => pattern === 'ALL' || obj.topic === pattern)
+    .map((problem, idx) => (
+      <tr>
+        <th scope="row">{idx + 1}</th>
+        <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
+        <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+        <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+      </tr>
+    ));
 }
 
-const renderOptions = (patternsList) => {
+const renderOptions = (pattern) => {
   const list = getListByName();
-  console.log(list);
-  return (<option value="ALL">All</option>);
+  let uniquePatterns = new Set();
+  uniquePatterns.add("All");
+  list.forEach(problem => uniquePatterns.add(problem.topic));
+
+  let options = [...uniquePatterns].map((patternName, idx) => (
+    <option key={idx} value={patternName}>{patternName}</option>
+  )
+  );
+  return options;
 }
 
 class App extends Component {
@@ -64,14 +73,25 @@ class App extends Component {
     super();
     this.state = {
       listName: 'BLIND_75_LIST',
-      patternsList: ['ALL']
+      currentPatternName: 'ALL'
     };
 
-    this.onChange = this.onChange.bind(this);
+    this.onChange = this.onChangeList.bind(this);
+    this.onChange = this.onChangePattern.bind(this);
   }
 
-  onChange(e) {
+  onChangeList(e) {
     this.setState({ listName: e.target.value });
+    if (e.target.value === 'ALL') {
+      this.setState({ currentPatternName: 'ALL' });
+    }
+  }
+
+  onChangePattern(e) {
+    this.setState({ currentPatternName: e.target.value });
+    if (e.target.value === 'ALL') {
+      this.setState({ listName: 'ALL' });
+    }
   }
 
   render() {
@@ -92,7 +112,7 @@ class App extends Component {
                   <label for="listSelect" className="form-label">Select the list:</label>
                 </div>
                 <div className="container-sm">
-                  <select className="form-select" value={this.state.listName} onChange={this.onChange}>
+                  <select className="form-select" value={this.state.listName} onChange={e => this.onChangeList(e)}>
                     <option value="BLIND_75_LIST">Blind 75</option>
                     <option value="NEETCODE_150_LIST">Neetcode 150</option>
                     <option value="SEAN_PRASHAD_170_LIST">Sean Prashad 170</option>
@@ -108,8 +128,8 @@ class App extends Component {
                   <label for="listSelect" className="form-label">Select the pattern:</label>
                 </div>
                 <div className="container-sm">
-                  <select className="form-select" value={this.state.listName} onChange={this.onChange}>
-                    {renderOptions(this.state.patternsList)}
+                  <select className="form-select" value={this.state.currentPatternName} onChange={e => this.onChangePattern(e)}>
+                    {renderOptions(this.state.currentPatternName)}
                   </select>
                 </div>
               </fieldset>
@@ -128,7 +148,7 @@ class App extends Component {
                     <th scope="col" style={{ width: "10%" }}>Difficulty</th>
                   </tr>
                 </thead>
-                <tbody> {renderList(this.state.listName)}</tbody>
+                <tbody> {renderList(this.state.listName, this.state.currentPatternName)}</tbody>
               </table>
             </div>
           </div>

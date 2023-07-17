@@ -109,7 +109,7 @@ export const BLIND_75_LIST =
       name: "Valid Parentheses",
       link: "https://leetcode.com/problems/valid-parentheses/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Easy"
     },
     {

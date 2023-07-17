@@ -647,7 +647,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Find Duplicate Subtrees",
       link: "https://leetcode.com/problems/find-duplicate-subtrees/",
-      topic: "",
+      topic: "Trees",
       patterns: [],
       difficulty: "Medium"
     },
@@ -696,77 +696,77 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Kth Largest Element in an Array",
       link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Top K Frequent Elements",
       link: "https://leetcode.com/problems/top-k-frequent-elements/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Kth Largest Element in a Stream",
       link: "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Last Stone Weight",
       link: "https://leetcode.com/problems/last-stone-weight/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "The K Weakest Rows in a Matrix",
       link: "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Kth Smallest Element in a Sorted Matrix",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Meeting Rooms II",
       link: "https://leetcode.com/problems/meeting-rooms-ii/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "K Closest Points to Origin",
       link: "https://leetcode.com/problems/k-closest-points-to-origin/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Minimum Cost to Connect Sticks",
       link: "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Furthest Building You Can Reach",
       link: "https://leetcode.com/problems/furthest-building-you-can-reach/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Find Median from Data Stream",
       link: "https://leetcode.com/problems/find-median-from-data-stream/",
-      topic: "Heap",
+      topic: "Heap / Priority Queue",
       patterns: [],
       difficulty: "Hard"
     },
@@ -1086,13 +1086,6 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       difficulty: "Easy"
     },
     {
-      name: "",
-      link: "",
-      topic: "N-ary Tree",
-      patterns: [],
-      difficulty: "Easy"
-    },
-    {
       name: "N-ary Tree Preorder Traversal",
       link: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
       topic: "N-ary Tree",
@@ -1221,63 +1214,63 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Implement Trie (Prefix Tree)",
       link: "https://leetcode.com/problems/implement-trie-prefix-tree/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Map Sum Pairs",
       link: "https://leetcode.com/problems/map-sum-pairs/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Replace Words",
       link: "https://leetcode.com/problems/replace-words/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Design Search Autocomplete System",
       link: "https://leetcode.com/problems/design-search-autocomplete-system/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Hard"
     },
     {
       name: "Design Add and Search Words Data Structure",
       link: "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Maximum XOR of Two Numbers in an Array",
       link: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Medium"
     },
     {
       name: "Word Search II",
       link: "https://leetcode.com/problems/word-search-ii/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Hard"
     },
     {
       name: "Word Squares",
       link: "https://leetcode.com/problems/word-squares/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Hard"
     },
     {
       name: "Palindrome Pairs",
       link: "https://leetcode.com/problems/palindrome-pairs/",
-      topic: "Trie",
+      topic: "Tries",
       patterns: [],
       difficulty: "Hard"
     },

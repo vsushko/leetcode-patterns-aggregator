@@ -144,49 +144,49 @@ export const NEETCODE_150_LIST =
       name: "Valid Parentheses",
       link: "https://leetcode.com/problems/valid-parentheses/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Easy"
     },
     {
       name: "Min Stack",
       link: "https://leetcode.com/problems/min-stack/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Evaluate Reverse Polish Notation",
       link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Generate Parentheses",
       link: "https://leetcode.com/problems/generate-parentheses/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Daily Temperatures",
       link: "https://leetcode.com/problems/daily-temperatures/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Car Fleet",
       link: "https://leetcode.com/problems/car-fleet/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Medium"
     },
     {
       name: "Largest Rectangle In Histogram",
       link: "https://leetcode.com/problems/largest-rectangle-in-histogram/",
       patterns: [],
-      topic: "Stack",
+      topic: "Queue & Stack",
       difficulty: "Hard"
     },
     {
