@@ -1345,8 +1345,8 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       difficulty: "Easy"
     },
     {
-      name: "Array Partition I",
-      link: "https://leetcode.com/problems/array-partition-i/",
+      name: "Array Partition",
+      link: "https://leetcode.com/problems/array-partition",
       topic: "Arrays",
       patterns: [],
       difficulty: "Easy"
