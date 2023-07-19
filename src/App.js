@@ -33,7 +33,7 @@ const getListByName = (listName) => {
   }
 }
 
-const renderList = (listName, pattern) => {
+const renderList = (listName, pattern, difficulty) => {
   const list = getListByName(listName);
 
   return list.reduce((acc, curr) => {
@@ -45,6 +45,7 @@ const renderList = (listName, pattern) => {
     return acc;
   }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index)
     .filter(obj => pattern === 'ALL' || obj.topic === pattern)
+    .filter(obj => difficulty === 'ALL' || obj.difficulty === difficulty)
     .map((problem, idx) => (
       <tr>
         <th scope="row">{idx + 1}</th>
@@ -73,25 +74,25 @@ class App extends Component {
     super();
     this.state = {
       listName: 'BLIND_75_LIST',
-      currentPatternName: 'ALL'
+      currentPatternName: 'ALL',
+      currentDifficulty: 'ALL'
     };
 
     this.onChange = this.onChangeList.bind(this);
     this.onChange = this.onChangePattern.bind(this);
+    this.onChange = this.onChangeDifficulty.bind(this);
   }
 
   onChangeList(e) {
     this.setState({ listName: e.target.value });
-    if (e.target.value === 'ALL') {
-      this.setState({ currentPatternName: 'ALL' });
-    }
   }
 
   onChangePattern(e) {
     this.setState({ currentPatternName: e.target.value });
-    if (e.target.value === 'ALL') {
-      this.setState({ listName: 'ALL' });
-    }
+  }
+
+  onChangeDifficulty(e) {
+    this.setState({ currentDifficulty: e.target.value });
   }
 
   render() {
@@ -133,6 +134,19 @@ class App extends Component {
                   </select>
                 </div>
               </fieldset>
+              <fieldset className="d-flex justify-content-start pt-3">
+                <div className="container-sm">
+                  <label for="listSelect" className="form-label">Select the difficulty:</label>
+                </div>
+                <div className="container-sm">
+                  <select className="form-select" value={this.state.currentDifficulty} onChange={e => this.onChangeDifficulty(e)}>
+                    <option value="ALL">All</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                  </select>
+                </div>
+              </fieldset>
             </form>
           </div>
         </div>
@@ -148,7 +162,7 @@ class App extends Component {
                     <th scope="col" style={{ width: "10%" }}>Difficulty</th>
                   </tr>
                 </thead>
-                <tbody> {renderList(this.state.listName, this.state.currentPatternName)}</tbody>
+                <tbody> {renderList(this.state.listName, this.state.currentPatternName, this.state.currentDifficulty)}</tbody>
               </table>
             </div>
           </div>
