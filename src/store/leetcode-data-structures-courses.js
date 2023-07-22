@@ -1340,7 +1340,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Reverse String",
       link: "https://leetcode.com/problems/reverse-string/",
-      topic: "Arrays",
+      topic: "Two Pointers",
       patterns: [],
       difficulty: "Easy"
     },
