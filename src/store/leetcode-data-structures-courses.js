@@ -535,14 +535,14 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Design HashSet",
       link: "https://leetcode.com/problems/design-hashset/",
-      topic: "Arrays",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
     {
       name: "Design HashMap",
       link: "https://leetcode.com/problems/design-hashmap",
-      topic: "Arrays",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
@@ -619,7 +619,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Logger Rate Limiter",
       link: "https://leetcode.com/problems/logger-rate-limiter/",
-      topic: "Arrays",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
@@ -668,7 +668,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Two Sum III - Data structure design",
       link: "https://leetcode.com/problems/two-sum-iii-data-structure-design/",
-      topic: "Arrays",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
