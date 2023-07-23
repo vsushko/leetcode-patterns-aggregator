@@ -514,7 +514,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Flood Fill",
       link: "https://leetcode.com/problems/flood-fill/",
-      topic: "Queue & Stack",
+      topic: "Graph",
       patterns: [],
       difficulty: "Easy"
     },
