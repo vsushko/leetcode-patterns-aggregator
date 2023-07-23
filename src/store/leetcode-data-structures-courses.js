@@ -486,7 +486,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Binary Tree Inorder Traversal",
       link: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-      topic: "Queue & Stack",
+      topic: "Binary Tree",
       patterns: [],
       difficulty: "Easy"
     },
