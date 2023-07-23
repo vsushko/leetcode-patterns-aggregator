@@ -192,7 +192,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Closest Binary Search Tree Value",
       link: "https://leetcode.com/problems/closest-binary-search-tree-value/",
-      topic: "Binary Search",
+      topic: "Binary Search Tree",
       patterns: [],
       difficulty: "Easy"
     },
