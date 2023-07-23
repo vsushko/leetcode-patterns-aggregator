@@ -409,7 +409,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Moving Average from Data Stream",
       link: "https://leetcode.com/problems/moving-average-from-data-stream/",
-      topic: "Queue & Stack",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
