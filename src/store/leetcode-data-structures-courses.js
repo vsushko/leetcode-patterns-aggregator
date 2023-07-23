@@ -1324,7 +1324,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       difficulty: "Easy"
     },
     {
-      name: "28. Find the Index of the First Occurrence in a String",
+      name: "Find the Index of the First Occurrence in a String",
       link: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
       topic: "Two Pointers",
       patterns: [],
