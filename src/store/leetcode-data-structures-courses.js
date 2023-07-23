@@ -689,7 +689,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Insert Delete GetRandom O(1)",
       link: "https://leetcode.com/problems/insert-delete-getrandom-o1/",
-      topic: "Arrays",
+      topic: "Design",
       patterns: [],
       difficulty: "Easy"
     },
