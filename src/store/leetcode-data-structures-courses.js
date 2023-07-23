@@ -509,7 +509,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       link: "https://leetcode.com/problems/decode-string/",
       topic: "Queue & Stack",
       patterns: [],
-      difficulty: "Easy"
+      difficulty: "Medium"
     },
     {
       name: "Flood Fill",
