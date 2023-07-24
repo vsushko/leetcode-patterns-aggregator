@@ -73,7 +73,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      listName: 'BLIND_75_LIST',
+      listName: 'ALL',
       currentPatternName: 'ALL',
       currentDifficulty: 'ALL'
     };
