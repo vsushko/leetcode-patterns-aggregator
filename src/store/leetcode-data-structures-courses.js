@@ -225,6 +225,13 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
       difficulty: "Easy"
     },
     {
+      name: "Search Insert Position",
+      link: "https://leetcode.com/problems/search-insert-position",
+      topic: "Binary Search",
+      patterns: [],
+      difficulty: "Easy"
+    },
+    {
       name: "Find Minimum in Rotated Sorted Array II",
       link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
       topic: "Binary Search",
