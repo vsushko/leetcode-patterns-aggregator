@@ -319,77 +319,77 @@ export const NEETCODE_150_LIST =
       name: "Invert Binary Tree",
       link: "https://leetcode.com/problems/invert-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Maximum Depth of Binary Tree",
       link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Diameter of Binary Tree",
       link: "https://leetcode.com/problems/diameter-of-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Balanced Binary Tree",
       link: "https://leetcode.com/problems/balanced-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Same Tree",
       link: "https://leetcode.com/problems/same-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Subtree of Another Tree",
       link: "https://leetcode.com/problems/subtree-of-another-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Lowest Common Ancestor of a Binary Search Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Right Side View",
       link: "https://leetcode.com/problems/binary-tree-right-side-view/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Count Good Nodes In Binary Tree",
       link: "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Validate Binary Search Tree",
       link: "https://leetcode.com/problems/validate-binary-search-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
@@ -403,21 +403,21 @@ export const NEETCODE_150_LIST =
       name: "Construct Binary Tree From Preorder And Inorder Traversal",
       link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Maximum Path Sum",
       link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Hard"
     },
     {
       name: "Serialize And Deserialize Binary Tree",
       link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Hard"
     },
     {

@@ -164,15 +164,15 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Binary Tree Level Order Traversal II",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
@@ -199,22 +199,22 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Binary Tree Right Side View",
       link: "https://leetcode.com/problems/binary-tree-right-side-view/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "All Nodes Distance K in Binary Tree",
       link: "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Same Tree",
       link: "https://leetcode.com/problems/same-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
@@ -227,15 +227,15 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Maximum Depth of Binary Tree",
       link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Diameter of Binary Tree",
       link: "https://leetcode.com/problems/diameter-of-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
@@ -248,15 +248,15 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Subtree of Another Tree",
       link: "https://leetcode.com/problems/subtree-of-another-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Invert Binary Tree",
       link: "https://leetcode.com/problems/invert-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {

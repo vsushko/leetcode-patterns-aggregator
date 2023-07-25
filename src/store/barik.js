@@ -32,7 +32,7 @@ export const BARIK_LIST =
       name: "Binary Tree Zigzag Level Order Traversal",
       link: "https://leetcode.com/problems/integer-to-english-words/description/",
       patterns: ["Math & Geometry"],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     }
   ];

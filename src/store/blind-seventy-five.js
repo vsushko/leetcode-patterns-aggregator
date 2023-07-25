@@ -172,28 +172,28 @@ export const BLIND_75_LIST =
       name: "Invert Binary Tree",
       link: "https://leetcode.com/problems/invert-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Maximum Depth of Binary Tree",
       link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Same Tree",
       link: "https://leetcode.com/problems/same-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
       name: "Subtree of Another Tree",
       link: "https://leetcode.com/problems/subtree-of-another-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
