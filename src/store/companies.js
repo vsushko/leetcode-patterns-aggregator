@@ -139,5 +139,12 @@ export const COMPANIES_LIST =
       patterns: [""],
       topic: "Greedy",
       difficulty: "Medium"
+    },
+    {
+      name: "Concatenation of Array",
+      link: "https://leetcode.com/problems/concatenation-of-array",
+      patterns: [""],
+      topic: "Arrays",
+      difficulty: "Easy"
     }
   ];
