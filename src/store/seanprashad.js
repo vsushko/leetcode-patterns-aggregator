@@ -94,8 +94,8 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Minimum Depth of Binary Tree",
       link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
@@ -241,8 +241,8 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Merge Two Binary Trees",
       link: "https://leetcode.com/problems/merge-two-binary-trees/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
