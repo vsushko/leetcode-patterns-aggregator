@@ -220,8 +220,8 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Path Sum",
       link: "https://leetcode.com/problems/path-sum/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Easy"
     },
     {
