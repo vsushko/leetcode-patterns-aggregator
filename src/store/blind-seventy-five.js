@@ -200,49 +200,49 @@ export const BLIND_75_LIST =
       name: "Lowest Common Ancestor of a Binary Search Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Validate Binary Search Tree",
       link: "https://leetcode.com/problems/validate-binary-search-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Kth Smallest Element In a Bst",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Construct Binary Tree From Preorder And Inorder Traversal",
       link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Maximum Path Sum",
       link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Hard"
     },
     {
       name: "Serialize And Deserialize Binary Tree",
       link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Tree",
       difficulty: "Hard"
     },
     {
@@ -256,14 +256,14 @@ export const BLIND_75_LIST =
       name: "Design Add And Search Words Data Structure",
       link: "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
       patterns: [],
-      topic: "Trees",
+      topic: "Trie",
       difficulty: "Medium"
     },
     {
       name: "Word Search II",
       link: "https://leetcode.com/problems/word-search-ii/",
       patterns: [],
-      topic: "Trees",
+      topic: "Trie",
       difficulty: "Hard"
     },
     {

@@ -101,8 +101,8 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Average of Levels in Binary Tree",
       link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
@@ -178,22 +178,22 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Binary Tree Zigzag Level Order Traversal",
       link: "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Populating Next Right Pointers in Each Node",
       link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Populating Next Right Pointers in Each Node II",
       link: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
@@ -269,71 +269,71 @@ export const SEAN_PRASHAD_170_LIST =
     {
       name: "Kth Smallest Element in a BST",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Search Tree"],
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Lowest Common Ancestor of a Binary Search Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Search Tree"],
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Path Sum II",
       link: "https://leetcode.com/problems/path-sum-ii/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Path Sum III",
       link: "https://leetcode.com/problems/path-sum-iii/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Lowest Common Ancestor of a Binary Tree",
       link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Maximum Binary Tree",
       link: "https://leetcode.com/problems/maximum-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Maximum Width of Binary Tree",
       link: "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Construct Binary Tree from Preorder and Inorder Traversal",
       link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Medium"
     },
     {
       name: "Validate Binary Search Tree",
       link: "https://leetcode.com/problems/validate-binary-search-tree/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Search Tree"],
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Binary Tree Maximum Path Sum",
       link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-      patterns: ["Trees"],
-      topic: "Trees",
+      patterns: ["Binary Tree"],
+      topic: "Binary Tree",
       difficulty: "Hard"
     },
     {

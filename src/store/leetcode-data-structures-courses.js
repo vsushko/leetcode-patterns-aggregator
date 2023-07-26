@@ -654,7 +654,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Find Duplicate Subtrees",
       link: "https://leetcode.com/problems/find-duplicate-subtrees/",
-      topic: "Trees",
+      topic: "Binary Tree",
       patterns: [],
       difficulty: "Medium"
     },

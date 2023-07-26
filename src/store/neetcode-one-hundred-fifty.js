@@ -389,14 +389,14 @@ export const NEETCODE_150_LIST =
       name: "Validate Binary Search Tree",
       link: "https://leetcode.com/problems/validate-binary-search-tree/",
       patterns: [],
-      topic: "Binary Tree",
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
       name: "Kth Smallest Element In a Bst",
       link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
       patterns: [],
-      topic: "Trees",
+      topic: "Binary Search Tree",
       difficulty: "Medium"
     },
     {
