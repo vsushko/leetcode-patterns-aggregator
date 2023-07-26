@@ -256,14 +256,14 @@ export const BLIND_75_LIST =
       name: "Design Add And Search Words Data Structure",
       link: "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
       patterns: [],
-      topic: "Trie",
+      topic: "Tries",
       difficulty: "Medium"
     },
     {
       name: "Word Search II",
       link: "https://leetcode.com/problems/word-search-ii/",
       patterns: [],
-      topic: "Trie",
+      topic: "Tries",
       difficulty: "Hard"
     },
     {
