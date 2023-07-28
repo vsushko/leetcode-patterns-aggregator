@@ -52,6 +52,7 @@ const renderList = (listName, pattern, difficulty) => {
         <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
         <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
         <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+        <td><input type="checkbox" /></td>
       </tr>
     ));
 }
@@ -160,14 +161,13 @@ class App extends Component {
                     <th scope="col" style={{ width: "50%" }}>Problem</th>
                     <th scope="col" style={{ width: "35%" }}>Pattern</th>
                     <th scope="col" style={{ width: "10%" }}>Difficulty</th>
+                    <th scope="col" style={{ width: "10%" }}>Completed</th>
                   </tr>
                 </thead>
                 <tbody> {renderList(this.state.listName, this.state.currentPatternName, this.state.currentDifficulty)}</tbody>
               </table>
             </div>
           </div>
-        </div>
-        <div>
         </div>
       </div>
     );
