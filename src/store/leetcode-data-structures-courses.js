@@ -87,7 +87,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Sort Array By Parity",
       link: "https://leetcode.com/problems/sort-array-by-parity/",
-      topic: "Arrays",
+      topic: "Two Pointers",
       patterns: [],
       difficulty: "Easy"
     },
