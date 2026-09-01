@@ -32,6 +32,7 @@ export const COMPANIES_LIST =
     {
       name: "One Edit Distance",
       link: "https://leetcode.com/problems/one-edit-distance/",
+      premium: true,
       patterns: [""],
       topic: "Two Pointers",
       difficulty: "Medium"
