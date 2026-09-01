@@ -11,6 +11,8 @@ import './App.css';
 
 const COMPLETED_STORAGE_KEY = 'completedProblems';
 
+const DIFFICULTIES = ['Easy', 'Medium', 'Hard'];
+
 const loadCompleted = () => {
   try {
     const stored = sessionStorage.getItem(COMPLETED_STORAGE_KEY);
@@ -98,7 +100,7 @@ const getListByName = (listName) => {
   }
 }
 
-const getFilteredProblems = (listName, pattern, difficulty) => {
+const getFilteredProblems = (listName, pattern, difficulties) => {
   const list = getListByName(listName);
 
   return list.reduce((acc, curr) => {
@@ -110,7 +112,7 @@ const getFilteredProblems = (listName, pattern, difficulty) => {
     return acc;
   }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index)
     .filter(obj => pattern === 'ALL' || obj.topic === pattern)
-    .filter(obj => difficulty === 'ALL' || obj.difficulty === difficulty);
+    .filter(obj => difficulties.length === 0 || difficulties.includes(obj.difficulty));
 }
 
 const renderList = (problems, completed, onToggle, copiedProblem, onCopy) => {
@@ -166,14 +168,14 @@ class App extends Component {
     this.state = {
       listName: 'ALL',
       currentPatternName: 'ALL',
-      currentDifficulty: 'ALL',
+      currentDifficulties: [],
       completed: loadCompleted(),
       copiedProblem: null
     };
 
     this.onChange = this.onChangeList.bind(this);
     this.onChange = this.onChangePattern.bind(this);
-    this.onChange = this.onChangeDifficulty.bind(this);
+    this.onToggleDifficulty = this.onToggleDifficulty.bind(this);
     this.onToggleProblem = this.onToggleProblem.bind(this);
     this.onCopyProblemName = this.onCopyProblemName.bind(this);
   }
@@ -190,8 +192,12 @@ class App extends Component {
     this.setState({ currentPatternName: e.target.value });
   }
 
-  onChangeDifficulty(e) {
-    this.setState({ currentDifficulty: e.target.value });
+  onToggleDifficulty(difficulty) {
+    this.setState(prevState => ({
+      currentDifficulties: prevState.currentDifficulties.includes(difficulty)
+        ? prevState.currentDifficulties.filter(item => item !== difficulty)
+        : [...prevState.currentDifficulties, difficulty]
+    }));
   }
 
   onCopyProblemName(problemName) {
@@ -230,7 +236,7 @@ class App extends Component {
   }
 
   render() {
-    const problems = getFilteredProblems(this.state.listName, this.state.currentPatternName, this.state.currentDifficulty);
+    const problems = getFilteredProblems(this.state.listName, this.state.currentPatternName, this.state.currentDifficulties);
     const selectedCount = problems.filter(problem => this.state.completed.has(problem.name)).length;
     const allSelected = problems.length > 0 && selectedCount === problems.length;
     const someSelected = selectedCount > 0 && !allSelected;
@@ -277,13 +283,24 @@ class App extends Component {
                 <div className="container-sm">
                   <label for="listSelect" className="form-label">Select the difficulty:</label>
                 </div>
-                <div className="container-sm">
-                  <select className="form-select" value={this.state.currentDifficulty} onChange={e => this.onChangeDifficulty(e)}>
-                    <option value="ALL">All</option>
-                    <option value="Easy">Easy</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hard">Hard</option>
-                  </select>
+                <div className="container-sm d-flex align-items-center flex-wrap gap-3">
+                  {DIFFICULTIES.map(difficulty => (
+                    <div className="form-check mb-0" key={difficulty}>
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        id={"difficulty-" + difficulty}
+                        checked={this.state.currentDifficulties.includes(difficulty)}
+                        onChange={() => this.onToggleDifficulty(difficulty)}
+                      />
+                      <label className="form-check-label" htmlFor={"difficulty-" + difficulty} style={getDifficultyColor(difficulty)}>
+                        {difficulty}
+                      </label>
+                    </div>
+                  ))}
+                  {this.state.currentDifficulties.length === 0
+                    ? <small className="text-muted">all difficulties</small>
+                    : null}
                 </div>
               </fieldset>
             </form>
