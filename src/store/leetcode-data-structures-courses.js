@@ -108,7 +108,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Max Consecutive Ones II",
       link: "https://leetcode.com/problems/max-consecutive-ones-ii/",
-      topic: "Arrays",
+      topic: "Sliding Window",
       patterns: [],
       difficulty: "Medium"
     },
@@ -1326,7 +1326,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Add Binary",
       link: "https://leetcode.com/problems/add-binary/",
-      topic: "Arrays",
+      topic: "Bit Manipulation",
       patterns: [],
       difficulty: "Easy"
     },
@@ -1403,7 +1403,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Reverse Words in a String",
       link: "https://leetcode.com/problems/reverse-words-in-a-string/",
-      topic: "Arrays",
+      topic: "Two Pointers",
       patterns: [],
       difficulty: "Medium"
     },

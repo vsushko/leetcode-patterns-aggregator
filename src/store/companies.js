@@ -18,7 +18,7 @@ export const COMPANIES_LIST =
       name: "Longest Subarray of 1's After Deleting One Element",
       link: "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
       patterns: [],
-      topic: "Arrays",
+      topic: "Sliding Window",
       difficulty: "Medium"
     },
     {
@@ -67,7 +67,7 @@ export const COMPANIES_LIST =
       name: "Longest Substring with At Most K Distinct Characters",
       link: "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
       patterns: [""],
-      topic: "Arrays",
+      topic: "Sliding Window",
       difficulty: "Medium"
     },
     {
@@ -146,5 +146,40 @@ export const COMPANIES_LIST =
       patterns: [""],
       topic: "Arrays",
       difficulty: "Easy"
-    }
+    },
+    {
+      name: "Design an ATM Machine",
+      link: "https://leetcode.com/problems/design-an-atm-machine",
+      patterns: [""],
+      topic: "Greedy",
+      difficulty: "Medium"
+    },
+    {
+      name: "Find the Prefix Common Array of Two Arrays",
+      link: "https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays",
+      patterns: [""],
+      topic: "Arrays",
+      difficulty: "Medium"
+    },
+    {
+      name: "First Missing Positive",
+      link: "https://leetcode.com/problems/first-missing-positive",
+      patterns: [""],
+      topic: "Arrays",
+      difficulty: "Hard"
+    },
+    {
+      name: "Next Permutation",
+      link: "https://leetcode.com/problems/next-permutation",
+      patterns: [""],
+      topic: "Two Pointers",
+      difficulty: "Medium"
+    },
+    {
+      name: "Range Sum Query - Immutable",
+      link: "https://leetcode.com/problems/range-sum-query-immutable",
+      patterns: [""],
+      topic: "Design",
+      difficulty: "Easy"
+    },
   ];
