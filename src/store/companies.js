@@ -3,6 +3,7 @@ export const COMPANIES_LIST =
     {
       name: "Line Reflection",
       link: "https://leetcode.com/problems/line-reflection",
+      premium: true,
       patterns: [],
       topic: "Arrays",
       difficulty: "Medium"
@@ -45,6 +46,7 @@ export const COMPANIES_LIST =
     {
       name: "Design Hit Counter",
       link: "https://leetcode.com/problems/design-hit-counter/",
+      premium: true,
       patterns: [""],
       topic: "Arrays",
       difficulty: "Medium"
@@ -66,6 +68,7 @@ export const COMPANIES_LIST =
     {
       name: "Longest Substring with At Most K Distinct Characters",
       link: "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+      premium: true,
       patterns: [""],
       topic: "Sliding Window",
       difficulty: "Medium"

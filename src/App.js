@@ -9,6 +9,71 @@ import { COMPANIES_LIST } from "./store/companies";
 
 import './App.css';
 
+const COMPLETED_STORAGE_KEY = 'completedProblems';
+
+const loadCompleted = () => {
+  try {
+    const stored = sessionStorage.getItem(COMPLETED_STORAGE_KEY);
+    return new Set(stored ? JSON.parse(stored) : []);
+  } catch (e) {
+    return new Set();
+  }
+}
+
+const saveCompleted = (completed) => {
+  try {
+    sessionStorage.setItem(COMPLETED_STORAGE_KEY, JSON.stringify([...completed]));
+  } catch (e) {
+    // storage is unavailable (private mode, quota) - keep the state in memory only
+  }
+}
+
+const fallbackCopy = (text) => {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand('copy');
+  } catch (e) {
+    // copying is not supported by this browser
+  }
+  document.body.removeChild(textarea);
+}
+
+const copyToClipboard = (text) => {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
+    return;
+  }
+  fallbackCopy(text);
+}
+
+const CLIPBOARD_ICON = (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+  </svg>
+);
+
+const COPIED_ICON = (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+  </svg>
+);
+
+const PREMIUM_BADGE = (
+  <span className="badge premium-badge" title="This problem requires a LeetCode Premium subscription">
+    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+    </svg>
+    Premium
+  </span>
+);
+
 const getDifficultyColor = (difficulty) => {
   if (difficulty === 'Easy') {
     return { color: "#00AF9B" }
@@ -33,7 +98,7 @@ const getListByName = (listName) => {
   }
 }
 
-const renderList = (listName, pattern, difficulty) => {
+const getFilteredProblems = (listName, pattern, difficulty) => {
   const list = getListByName(listName);
 
   return list.reduce((acc, curr) => {
@@ -45,16 +110,41 @@ const renderList = (listName, pattern, difficulty) => {
     return acc;
   }, []).filter((obj, index) => list.findIndex((item) => item.name === obj.name) === index)
     .filter(obj => pattern === 'ALL' || obj.topic === pattern)
-    .filter(obj => difficulty === 'ALL' || obj.difficulty === difficulty)
-    .map((problem, idx) => (
-      <tr>
-        <th scope="row">{idx + 1}</th>
-        <td className="text-start"><a className="navbar-brand" href={problem.link}>{problem.name}</a></td>
-        <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
-        <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
-        <td><input type="checkbox" /></td>
-      </tr>
-    ));
+    .filter(obj => difficulty === 'ALL' || obj.difficulty === difficulty);
+}
+
+const renderList = (problems, completed, onToggle, copiedProblem, onCopy) => {
+  return problems.map((problem, idx) => (
+    <tr key={problem.name}>
+      <th scope="row">{idx + 1}</th>
+      <td className="text-start">
+        <div className="d-flex justify-content-between align-items-center">
+          <span className="d-flex align-items-center flex-wrap">
+            <a className="navbar-brand problem-name" href={problem.link}>{problem.name}</a>
+            {problem.premium ? PREMIUM_BADGE : null}
+          </span>
+          <button
+            type="button"
+            className={copiedProblem === problem.name ? "btn copy-button copied" : "btn copy-button"}
+            title={copiedProblem === problem.name ? "Copied!" : "Copy the problem name"}
+            aria-label={"Copy the name of the problem " + problem.name}
+            onClick={() => onCopy(problem.name)}
+          >
+            {copiedProblem === problem.name ? COPIED_ICON : CLIPBOARD_ICON}
+          </button>
+        </div>
+      </td>
+      <td>{!problem.patterns ? problem.patterns.join(', ') : problem.topic}</td>
+      <td style={getDifficultyColor(problem.difficulty)}>{problem.difficulty}</td>
+      <td>
+        <input
+          type="checkbox"
+          checked={completed.has(problem.name)}
+          onChange={() => onToggle(problem.name)}
+        />
+      </td>
+    </tr>
+  ));
 }
 
 const renderOptions = (pattern) => {
@@ -76,12 +166,20 @@ class App extends Component {
     this.state = {
       listName: 'ALL',
       currentPatternName: 'ALL',
-      currentDifficulty: 'ALL'
+      currentDifficulty: 'ALL',
+      completed: loadCompleted(),
+      copiedProblem: null
     };
 
     this.onChange = this.onChangeList.bind(this);
     this.onChange = this.onChangePattern.bind(this);
     this.onChange = this.onChangeDifficulty.bind(this);
+    this.onToggleProblem = this.onToggleProblem.bind(this);
+    this.onCopyProblemName = this.onCopyProblemName.bind(this);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.copiedTimeout);
   }
 
   onChangeList(e) {
@@ -96,7 +194,47 @@ class App extends Component {
     this.setState({ currentDifficulty: e.target.value });
   }
 
+  onCopyProblemName(problemName) {
+    copyToClipboard(problemName);
+    clearTimeout(this.copiedTimeout);
+    this.setState({ copiedProblem: problemName });
+    this.copiedTimeout = setTimeout(() => this.setState({ copiedProblem: null }), 1500);
+  }
+
+  onToggleProblem(problemName) {
+    this.setState(prevState => {
+      const completed = new Set(prevState.completed);
+      if (completed.has(problemName)) {
+        completed.delete(problemName);
+      } else {
+        completed.add(problemName);
+      }
+      saveCompleted(completed);
+      return { completed };
+    });
+  }
+
+  onToggleAll(problems, allSelected) {
+    this.setState(prevState => {
+      const completed = new Set(prevState.completed);
+      problems.forEach(problem => {
+        if (allSelected) {
+          completed.delete(problem.name);
+        } else {
+          completed.add(problem.name);
+        }
+      });
+      saveCompleted(completed);
+      return { completed };
+    });
+  }
+
   render() {
+    const problems = getFilteredProblems(this.state.listName, this.state.currentPatternName, this.state.currentDifficulty);
+    const selectedCount = problems.filter(problem => this.state.completed.has(problem.name)).length;
+    const allSelected = problems.length > 0 && selectedCount === problems.length;
+    const someSelected = selectedCount > 0 && !allSelected;
+
     return (
       <div className="App">
         <div>
@@ -161,10 +299,24 @@ class App extends Component {
                     <th scope="col" style={{ width: "50%" }}>Problem</th>
                     <th scope="col" style={{ width: "35%" }}>Pattern</th>
                     <th scope="col" style={{ width: "10%" }}>Difficulty</th>
-                    <th scope="col" style={{ width: "10%" }}>Completed</th>
+                    <th scope="col" style={{ width: "10%" }}>
+                      <div className="d-flex align-items-center justify-content-center gap-2">
+                        <input
+                          type="checkbox"
+                          title="Select all the problems matching the current filters"
+                          aria-label="Select all the problems matching the current filters"
+                          disabled={problems.length === 0}
+                          checked={allSelected}
+                          ref={el => { if (el) { el.indeterminate = someSelected; } }}
+                          onChange={() => this.onToggleAll(problems, allSelected)}
+                        />
+                        <span>Completed</span>
+                      </div>
+                      <small className="fw-normal text-muted">{selectedCount}/{problems.length}</small>
+                    </th>
                   </tr>
                 </thead>
-                <tbody> {renderList(this.state.listName, this.state.currentPatternName, this.state.currentDifficulty)}</tbody>
+                <tbody>{renderList(problems, this.state.completed, this.onToggleProblem, this.state.copiedProblem, this.onCopyProblemName)}</tbody>
               </table>
             </div>
           </div>

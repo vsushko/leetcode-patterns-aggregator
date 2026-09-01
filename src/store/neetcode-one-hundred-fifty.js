@@ -52,6 +52,7 @@ export const NEETCODE_150_LIST =
     {
       name: "Encode And Decode Strings",
       link: "https://leetcode.com/problems/encode-and-decode-strings/",
+      premium: true,
       patterns: [],
       topic: "Arrays",
       difficulty: "Medium"

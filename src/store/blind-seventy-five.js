@@ -45,6 +45,7 @@ export const BLIND_75_LIST =
     {
       name: "Encode And Decode Strings",
       link: "https://leetcode.com/problems/encode-and-decode-strings/",
+      premium: true,
       patterns: [],
       topic: "Arrays",
       difficulty: "Medium"

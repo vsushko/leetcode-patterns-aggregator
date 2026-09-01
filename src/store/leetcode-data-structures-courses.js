@@ -108,6 +108,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Max Consecutive Ones II",
       link: "https://leetcode.com/problems/max-consecutive-ones-ii/",
+      premium: true,
       topic: "Sliding Window",
       patterns: [],
       difficulty: "Medium"
@@ -640,6 +641,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Group Shifted Strings",
       link: "https://leetcode.com/problems/group-shifted-strings/",
+      premium: true,
       topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
@@ -689,6 +691,7 @@ export const LEETCODE_DATA_STRUCTURES_COURSES_LIST =
     {
       name: "Unique Word Abbreviation",
       link: "https://leetcode.com/problems/unique-word-abbreviation/",
+      premium: true,
       topic: "Arrays",
       patterns: [],
       difficulty: "Medium"
